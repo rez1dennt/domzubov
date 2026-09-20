@@ -1,0 +1,100 @@
+/* Final component rules, loaded after the legacy layout and theme styles. */
+.dz-main .dz-icon-surface svg[data-dz-icon] {
+  display:block;width:24px;height:24px;max-width:100%;flex:none;
+  color:var(--gold-ink);fill:none;stroke:currentColor;overflow:visible;
+}
+.dz-main .dz-icon-surface svg[data-dz-icon] * {fill:none;stroke:currentColor}
+.dz-main .dz-icon-surface {display:flex;align-items:center;justify-content:center;flex:none}
+.dz-main .dz-clinic-quote {
+  position:relative;display:grid;gap:18px;height:auto;min-height:0;margin:32px 0 0;
+  padding:28px 32px;border:1px solid var(--line);border-left:3px solid var(--gold);
+  border-radius:24px;background:var(--surface-muted);color:var(--ink);
+}
+.dz-main .dz-clinic-quote p {margin:0;max-width:76ch;font-size:17px;line-height:1.65}
+.dz-main .dz-clinic-quote cite {font-size:13px;line-height:1.4;font-style:normal;color:var(--gold-ink)}
+.dz-main .dz-about-approach {
+  display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,1fr);gap:40px!important;
+  align-items:start;margin-top:56px!important;
+}
+.dz-main .dz-about-approach>div:first-child {width:auto;max-width:none;min-width:0}
+.dz-main .dz-about-approach p {width:auto;max-width:100%;line-height:1.65}
+.dz-main .dz-about-approach-media {width:auto;height:auto;max-width:100%;min-width:0;display:grid;gap:18px}
+.dz-main .dz-about-approach-media>div:first-child {width:100%;height:auto;aspect-ratio:1.2;min-height:0}
+.dz-main .dz-about-approach-quote {
+  position:static!important;inset:auto!important;transform:none!important;
+  width:auto!important;height:auto!important;min-height:0!important;padding:25px!important;
+  display:grid;gap:16px;border-radius:24px;
+}
+.dz-main .dz-about-approach-quote img {width:52px;height:auto}
+.dz-main .dz-about-approach-quote p {font-size:15px;line-height:1.65;margin:0!important}
+.dz-about-team-grid {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;align-items:stretch}
+.dz-about-team-grid .dz-real-doctor-card {width:100%!important;max-width:none!important;min-width:0}
+.dz-about-team-grid .dz-doctor-portrait-link {width:100%;max-width:100%}
+.dz-about-team-grid .dz-doctor-name {overflow-wrap:normal}
+.dz-main [data-review-status] {display:none!important}
+.dz-main .dz-team-controls {display:flex;align-items:center;justify-content:center;gap:10px!important;margin:20px 0 0!important;min-height:0;padding:0}
+.dz-main .dz-team-controls button {
+  width:44px!important;height:44px!important;min-width:44px;min-height:44px;padding:0;
+  border:1px solid var(--line);border-radius:50%;background:var(--paper);color:var(--ink);
+}
+.dz-main .dz-team-controls button:not(:disabled):hover {border-color:var(--gold);background:var(--gold-soft)}
+.dz-main .dz-team-controls button:disabled {opacity:.35}
+.dz-main .dz-team-controls button svg {display:block;width:18px;height:18px;flex:none}
+.dz-main .dz-team-controls button>div {display:flex;align-items:center;justify-content:center;line-height:0}
+.dz-main .dz-team-controls button svg path {stroke:currentColor}
+.dz-main .dz-team-directory-link {margin-top:20px!important}
+.dz-main .dz-team-controls button:focus-visible,.dz-main .dz-hero-secondary:focus-visible {outline:2px solid var(--gold);outline-offset:4px}
+.dz-home .a11y-hero-section {height:auto!important;min-height:620px;display:flex;align-items:center}
+.dz-home .a11y-hero-section>div {height:auto!important;min-width:0}
+.dz-home .a11y-hero-section>div>div {height:auto!important;padding-block:80px!important;min-width:0}
+.dz-home .a11y-hero-section>div>div>div {gap:32px!important;max-width:800px;min-width:0;width:100%}
+.dz-home .a11y-hero-section h1 {font-family:var(--font-heading);max-width:100%;height:auto;overflow:visible;overflow-wrap:break-word;font-size:clamp(30px,3.2vw,48px);line-height:1.2}
+.dz-home .a11y-hero-bg {height:100%!important}
+.dz-home .a11y-hero-section .dz-hero-secondary {
+  display:inline-flex;align-items:center;justify-content:center;position:relative;isolation:isolate;
+  background:#171613!important;background-image:none!important;color:var(--on-dark)!important;
+  border:1px solid var(--gold)!important;border-radius:999px!important;overflow:hidden;
+  min-height:54px;padding:14px 24px;text-decoration:none;line-height:1.3;
+}
+.dz-home .a11y-hero-section .dz-hero-secondary:hover {background:#29251e!important}
+@media(max-width:1100px) {
+  .dz-about-team-grid {grid-template-columns:repeat(2,minmax(0,1fr))}
+  .dz-main .dz-about-approach {grid-template-columns:minmax(0,1fr);gap:28px!important}
+  .dz-main .dz-about-approach-media {width:100%;max-width:640px}
+}
+@media(max-width:767px) {
+  .dz-main .dz-clinic-quote {padding:22px;margin-top:24px;gap:14px;border-radius:20px}
+  .dz-main .dz-clinic-quote p {font-size:15px;line-height:1.65}
+  .dz-main .dz-about-approach {margin-top:36px!important}
+  .dz-main .dz-about-approach-media {max-width:100%;gap:14px}
+  .dz-main .dz-about-approach-quote {padding:22px!important;border-radius:22px}
+  .dz-home .a11y-hero-section {min-height:0}
+  .dz-home .a11y-hero-section>div>div {padding-block:54px!important}
+  .dz-home .a11y-hero-section>div>div>div {gap:26px!important}
+  .dz-home .a11y-hero-section h1 {font-size:clamp(26px,6.6vw,34px);line-height:1.24}
+  .dz-home .a11y-hero-section .dz-hero-secondary {width:100%;max-width:360px;min-height:52px;font-size:14px}
+  .dz-main .dz-team-controls {margin-top:16px!important}
+  .dz-main .dz-team-directory-link {margin-top:16px!important}
+}
+@media(max-width:540px) {.dz-about-team-grid {grid-template-columns:minmax(0,1fr)}}
+
+.dz-main .dz-about-approach-quote img{width:160px!important;max-width:65%;height:auto!important;object-fit:contain}
+
+.dz-service-specialists {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:24px;align-items:stretch}
+.dz-service-specialists>.dz-real-doctor-card {width:100%!important;max-width:390px;min-width:0;margin:0}
+.dz-service-specialists:has(>.dz-real-doctor-card:only-child) {grid-template-columns:minmax(0,390px)}
+@media(max-width:767px){.dz-service-specialists {grid-template-columns:minmax(0,1fr);gap:20px}.dz-service-specialists>.dz-real-doctor-card {max-width:100%}}
+@media(min-width:768px) {
+  .dz-service-specialists:has(>.dz-real-doctor-card:only-child) {grid-template-columns:minmax(0,900px)}
+  .dz-service-specialists>.dz-real-doctor-card:only-child {display:grid;grid-template-columns:minmax(240px,320px) minmax(0,1fr);max-width:900px}
+  .dz-service-specialists>.dz-real-doctor-card:only-child .dz-doctor-portrait-link>img,
+  .dz-service-specialists>.dz-real-doctor-card:only-child .dz-portrait-pending {height:100%!important;min-height:340px}
+  .dz-service-specialists>.dz-real-doctor-card:only-child h2,
+  .dz-service-specialists>.dz-real-doctor-card:only-child .dz-doctor-card-description,
+  .dz-service-specialists>.dz-real-doctor-card:only-child .dz-doctor-card-specialty {min-height:0}
+  .dz-service-specialists>.dz-real-doctor-card:only-child .dz-doctor-card-body {padding:32px;gap:20px}
+}
+/* Legacy feature rows must also fit the shared grid, including cards without annotations. */
+.dz-main [data-feature-grid]>div {width:100%!important;max-width:100%;min-width:0}
+.dz-main [data-feature-grid]>div>div:not(.dz-icon-surface) {width:auto!important;min-width:0;flex:1}
+.dz-main [data-feature-grid]>div>div:not(.dz-icon-surface)>div {width:auto!important;max-width:100%;overflow-wrap:break-word}

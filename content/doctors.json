@@ -1,0 +1,816 @@
+{
+  "doctors": [
+    {
+      "id": 163,
+      "name": "Заметалина Мария Алексеевна",
+      "profession": "Врач стоматолог-терапевт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/10030.jpg",
+      "description": "",
+      "clinics": [
+        1426,
+        1569
+      ],
+      "specializations": [
+        22
+      ],
+      "slug": "zametalina-mariya-alekssevna"
+    },
+    {
+      "id": 167,
+      "name": "Иванова Кристина Андреевна",
+      "profession": "Врач стоматолог-гигиенист",
+      "photoPath": "https://belayaraduga.ru/media/doctors/5117.jpg",
+      "description": "",
+      "clinics": [
+        1601
+      ],
+      "specializations": [
+        15
+      ],
+      "slug": "ivanova-kristina-andreevna"
+    },
+    {
+      "id": 160,
+      "name": "Оксентюк Алина Давидовна",
+      "profession": "Врач стоматолог-ортодонт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/10174.jpg",
+      "description": "",
+      "clinics": [
+        524
+      ],
+      "specializations": [
+        18
+      ],
+      "slug": "oksentyuk-alina-davidovna"
+    },
+    {
+      "id": 166,
+      "name": "Соляник Екатерина Константиновна",
+      "profession": "Гнатолог, Врач стоматолог-ортопед",
+      "photoPath": "https://belayaraduga.ru/media/doctors/10018.jpg",
+      "description": "",
+      "clinics": [
+        1601
+      ],
+      "specializations": [
+        16,
+        21
+      ],
+      "slug": "solyanik-ekaterina-konstantinovna"
+    },
+    {
+      "id": 162,
+      "name": "Федчишин Никита Олегович",
+      "profession": "Врач стоматолог-ортопед высшей категории",
+      "photoPath": "https://belayaraduga.ru/media/doctors/10088.jpg",
+      "description": "",
+      "clinics": [
+        1426
+      ],
+      "specializations": [
+        27
+      ],
+      "slug": "fedchishin-nikita-olegovich"
+    },
+    {
+      "id": 168,
+      "name": "Хачатурян Виктория Юрьевна",
+      "profession": "Врач стоматолог-пародонтолог",
+      "photoPath": "https://belayaraduga.ru/media/doctors/10132.jpg",
+      "description": "",
+      "clinics": [
+        1426
+      ],
+      "specializations": [
+        14
+      ],
+      "slug": "hachaturyan-viktoriya-yurevna"
+    },
+    {
+      "id": 78,
+      "name": "Кучкарева Ольга Сергеевна",
+      "profession": "Врач стоматолог-гигиенист",
+      "photoPath": "https://belayaraduga.ru/media/doctors/olga-sergeevna-kuchkareva_Y2aqjhn.jpg",
+      "description": "",
+      "clinics": [
+        524
+      ],
+      "specializations": [
+        15
+      ],
+      "slug": "olga-sergeevna-kuchkareva"
+    },
+    {
+      "id": 79,
+      "name": "Ландинова Елена Владимировна",
+      "profession": "Кандидат медицинских наук, Врач стоматолог-терапевт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/elena-vladimirovna-landinova_v96ho0m.jpg",
+      "description": "",
+      "clinics": [
+        524
+      ],
+      "specializations": [
+        25,
+        22
+      ],
+      "slug": "elena-vladimirovna-landinova"
+    },
+    {
+      "id": 80,
+      "name": "Амбарцумян Рубен Николаевич",
+      "profession": "Главный врач, Врач стоматолог-ортопед",
+      "photoPath": "https://belayaraduga.ru/media/doctors/ruben-nikolaevich-ambartsumian_GyeDlkg.jpg",
+      "description": "",
+      "clinics": [
+        524,
+        1601
+      ],
+      "specializations": [
+        23,
+        21
+      ],
+      "slug": "ruben-nikolaevich-ambartsumian"
+    },
+    {
+      "id": 85,
+      "name": "Христинин Игнат Игоревич",
+      "profession": "Врач стоматолог-хирург, Врач стоматолог-терапевт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/ignat-igorevich-hristinin_9IXRC4z.jpg",
+      "description": "",
+      "clinics": [
+        524
+      ],
+      "specializations": [
+        20,
+        22
+      ],
+      "slug": "ignat-igorevich-hristinin"
+    },
+    {
+      "id": 86,
+      "name": "Абакумов Артем Александрович",
+      "profession": "Врач стоматолог-ортопед",
+      "photoPath": "https://belayaraduga.ru/media/doctors/artem-aleksandrovich-abakumov_UUUav1V.jpg",
+      "description": "",
+      "clinics": [
+        1569
+      ],
+      "specializations": [
+        21
+      ],
+      "slug": "artem-aleksandrovich-abakumov"
+    },
+    {
+      "id": 89,
+      "name": "Черепанова Екатерина Петровна",
+      "profession": "Эндодонтист, Врач стоматолог-терапевт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/ekaterina-petrovna-cherepanova_xxY0CiL.jpg",
+      "description": "",
+      "clinics": [
+        1601
+      ],
+      "specializations": [
+        17,
+        22
+      ],
+      "slug": "ekaterina-petrovna-cherepanova"
+    },
+    {
+      "id": 92,
+      "name": "Гриднева Светлана Владимировна",
+      "profession": "Главный ортодонт, Гнатолог, Врач стоматолог-ортодонт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/svetlana-vladimirovna-gridneva_7yJLCsC.jpg",
+      "description": "",
+      "clinics": [
+        1426
+      ],
+      "specializations": [
+        28,
+        16,
+        18
+      ],
+      "slug": "svetlana-vladimirovna-gridneva"
+    },
+    {
+      "id": 93,
+      "name": "Бурдаева Анна Сергеевна",
+      "profession": "Врач стоматолог-пародонтолог, Врач стоматолог-гигиенист",
+      "photoPath": "https://belayaraduga.ru/media/doctors/anna-sergeevna-burdaeva_J4dDNhT.jpg",
+      "description": "",
+      "clinics": [
+        1601
+      ],
+      "specializations": [
+        14,
+        15
+      ],
+      "slug": "anna-sergeevna-burdaeva"
+    },
+    {
+      "id": 94,
+      "name": "Асанова Кристина Алексеевна",
+      "profession": "Врач стоматолог-гигиенист",
+      "photoPath": "https://belayaraduga.ru/media/doctors/kristina-alekseevna-asanova_ka35fIH.jpg",
+      "description": "",
+      "clinics": [
+        1426
+      ],
+      "specializations": [
+        15
+      ],
+      "slug": "kristina-alekseevna-asanova"
+    },
+    {
+      "id": 96,
+      "name": "Зулькарнаев Булат Ришатович",
+      "profession": "Имплантолог, Врач стоматолог-хирург",
+      "photoPath": "https://belayaraduga.ru/media/doctors/bulat-rishatovich-zulkarnaev_GnoW2Xq.jpg",
+      "description": "",
+      "clinics": [
+        1426,
+        1569
+      ],
+      "specializations": [
+        19,
+        20
+      ],
+      "slug": "bulat-rishatovich-zulkarnaev"
+    },
+    {
+      "id": 98,
+      "name": "Марков Артем Андреевич",
+      "profession": "Врач стоматолог-терапевт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/artem-andreevich-markov_LrdZYcp.jpg",
+      "description": "",
+      "clinics": [
+        1601
+      ],
+      "specializations": [
+        22
+      ],
+      "slug": "artem-andreevich-markov"
+    },
+    {
+      "id": 99,
+      "name": "Габеева Виктория Александровна",
+      "profession": "Главный врач, Врач стоматолог-терапевт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/viktoriia-aleksandrovna-gabeeva_1fSIPnC.jpg",
+      "description": "",
+      "clinics": [
+        1426,
+        1569
+      ],
+      "specializations": [
+        23,
+        22
+      ],
+      "slug": "viktoriia-aleksandrovna-gabeeva"
+    },
+    {
+      "id": 101,
+      "name": "Селевич Николай Николаевич",
+      "profession": "Главный анестезиолог-реаниматолог, Врач анестезиолог-реаниматолог",
+      "photoPath": "https://belayaraduga.ru/media/doctors/%D0%A1%D0%B5%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.jpg",
+      "description": "",
+      "clinics": [
+        1426,
+        1569,
+        1601
+      ],
+      "specializations": [
+        29,
+        13
+      ],
+      "slug": "nikolai-nikolaevich-selevich"
+    },
+    {
+      "id": 104,
+      "name": "Серебрякова Надежда Владимировна",
+      "profession": "Детский врач-стоматолог",
+      "photoPath": "https://belayaraduga.ru/media/doctors/nadejda-vladimirovna-serebriakova_oxQzneB.jpg",
+      "description": "",
+      "clinics": [
+        1426
+      ],
+      "specializations": [
+        12
+      ],
+      "slug": "nadejda-vladimirovna-serebriakova"
+    },
+    {
+      "id": 105,
+      "name": "Тарасенко Кристина Михайловна",
+      "profession": "Эндодонтист, Врач стоматолог-терапевт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/%D0%A2%D0%B0%D1%80%D0%B0%D1%81%D0%B5%D0%BD%D0%BA%D0%BE_%D0%9A.._1.jpg",
+      "description": "",
+      "clinics": [
+        1569
+      ],
+      "specializations": [
+        17,
+        22
+      ],
+      "slug": "kristina-mihailovna--tarasenko"
+    },
+    {
+      "id": 106,
+      "name": "Лапушкина Анна Владимировна",
+      "profession": "Врач стоматолог-гигиенист",
+      "photoPath": "https://belayaraduga.ru/media/doctors/anna-vladimirovna-lapushkina_8VX6Y5G.jpg",
+      "description": "",
+      "clinics": [
+        1601
+      ],
+      "specializations": [
+        15
+      ],
+      "slug": "anna-vladimirovna-lapushkina"
+    },
+    {
+      "id": 107,
+      "name": "Никитин Никита Юрьевич",
+      "profession": "Врач стоматолог-ортопед",
+      "photoPath": "https://belayaraduga.ru/media/doctors/nikita-iurevich-nikitin_SO03rDX.jpg",
+      "description": "",
+      "clinics": [
+        1569
+      ],
+      "specializations": [
+        21
+      ],
+      "slug": "nikita-iurevich-nikitin"
+    },
+    {
+      "id": 109,
+      "name": "Резвова Екатерина Андреевна",
+      "profession": "Врач стоматолог-пародонтолог, Врач стоматолог-хирург",
+      "photoPath": "https://belayaraduga.ru/media/doctors/10186.jpg",
+      "description": "",
+      "clinics": [
+        1426,
+        1569
+      ],
+      "specializations": [
+        14,
+        20
+      ],
+      "slug": "ekaterina-andreevna-rezvova"
+    },
+    {
+      "id": 110,
+      "name": "Босенко Сергей Александрович",
+      "profession": "Врач анестезиолог-реаниматолог",
+      "photoPath": "https://belayaraduga.ru/media/doctors/sergei-aleksandrovich-bosenko_aIF7hCU.jpg",
+      "description": "",
+      "clinics": [
+        1426,
+        1569,
+        1601
+      ],
+      "specializations": [
+        13
+      ],
+      "slug": "sergei-aleksandrovich-bosenko"
+    },
+    {
+      "id": 115,
+      "name": "Гаева Мариам Шамилевна",
+      "profession": "Врач стоматолог-терапевт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/mariam-shamilevna--gaeva_8wvCIYB.jpg",
+      "description": "",
+      "clinics": [
+        524
+      ],
+      "specializations": [
+        22
+      ],
+      "slug": "mariam-shamilevna--gaeva"
+    },
+    {
+      "id": 119,
+      "name": "Туаева  Виктория  Витальевна",
+      "profession": "Врач стоматолог-терапевт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/viktoriia--vitalevna--tuaeva-_3Z9Q81Z.jpg",
+      "description": "",
+      "clinics": [
+        1426
+      ],
+      "specializations": [
+        22
+      ],
+      "slug": "viktoriia--vitalevna--tuaeva-"
+    },
+    {
+      "id": 121,
+      "name": "Осмоловская   Алина   Станиславовна",
+      "profession": "Врач стоматолог-пародонтолог, Врач стоматолог-гигиенист",
+      "photoPath": "https://belayaraduga.ru/media/doctors/IMG_5708.PNG",
+      "description": "",
+      "clinics": [
+        1569
+      ],
+      "specializations": [
+        14,
+        15
+      ],
+      "slug": "alina--stanislavovna--osmolovskaia-"
+    },
+    {
+      "id": 125,
+      "name": "Хацуков  Артур  Олегович",
+      "profession": "Имплантолог, Врач стоматолог-хирург",
+      "photoPath": "https://belayaraduga.ru/media/doctors/artur--olegovich--hatsukov-_sEv3E7O.jpg",
+      "description": "",
+      "clinics": [
+        1601
+      ],
+      "specializations": [
+        19,
+        20
+      ],
+      "slug": "artur--olegovich--hatsukov-"
+    },
+    {
+      "id": 127,
+      "name": "Мирзоян  Диана Азатовна",
+      "profession": "Врач стоматолог-пародонтолог, Врач стоматолог-гигиенист",
+      "photoPath": "https://belayaraduga.ru/media/doctors/diana-azatovna-mirzoian-_vRVZOk3.jpg",
+      "description": "",
+      "clinics": [
+        1601
+      ],
+      "specializations": [
+        14,
+        15
+      ],
+      "slug": "diana-azatovna-mirzoian-"
+    },
+    {
+      "id": 128,
+      "name": "Шут Елизавета Андреевна",
+      "profession": "Врач стоматолог-пародонтолог, Врач стоматолог-гигиенист",
+      "photoPath": "https://belayaraduga.ru/media/doctors/elizaveta-andreevna-shut_cb5qmAz.jpg",
+      "description": "",
+      "clinics": [
+        1426,
+        1569
+      ],
+      "specializations": [
+        14,
+        15
+      ],
+      "slug": "elizaveta-andreevna-shut"
+    },
+    {
+      "id": 129,
+      "name": "Семенов Степан Дмитриевич",
+      "profession": "Врач стоматолог-гигиенист",
+      "photoPath": "https://belayaraduga.ru/media/doctors/stepan-dmitrievich-semenov_0DznTaU.jpg",
+      "description": "",
+      "clinics": [
+        524
+      ],
+      "specializations": [
+        15
+      ],
+      "slug": "stepan-dmitrievich-semenov"
+    },
+    {
+      "id": 130,
+      "name": "Соболева Кристина Михайловна",
+      "profession": "Врач стоматолог-терапевт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/kristina-mihailovna-soboleva_w8476Cm.jpg",
+      "description": "",
+      "clinics": [
+        1601
+      ],
+      "specializations": [
+        22
+      ],
+      "slug": "kristina-mihailovna-soboleva"
+    },
+    {
+      "id": 131,
+      "name": "Скиданова Ольга  Андреевна",
+      "profession": "Эндодонтист, Врач стоматолог-терапевт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/olga--andreevna-skidanova_ve3DxYr.jpg",
+      "description": "",
+      "clinics": [
+        524
+      ],
+      "specializations": [
+        17,
+        22
+      ],
+      "slug": "olga--andreevna-skidanova"
+    },
+    {
+      "id": 132,
+      "name": "Любкин  Владислав  Валерьевич",
+      "profession": "Детский врач-стоматолог, Врач стоматолог-терапевт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/vladislav--valerevich--liubkin-_D10NBaK.jpg",
+      "description": "",
+      "clinics": [
+        1601
+      ],
+      "specializations": [
+        12,
+        22
+      ],
+      "slug": "vladislav--valerevich--liubkin-"
+    },
+    {
+      "id": 133,
+      "name": "Бондарь  Владислав  Алексеевич",
+      "profession": "Врач стоматолог-пародонтолог, Врач стоматолог-хирург",
+      "photoPath": "https://belayaraduga.ru/media/doctors/vladislav--alekseevich-bondar-_OhXiFuv.jpg",
+      "description": "",
+      "clinics": [
+        524
+      ],
+      "specializations": [
+        14,
+        20
+      ],
+      "slug": "vladislav--alekseevich-bondar-"
+    },
+    {
+      "id": 134,
+      "name": "Шарый Виктория Александровна",
+      "profession": "Детский врач-стоматолог",
+      "photoPath": "https://belayaraduga.ru/media/doctors/viktoriia-aleksandrovna-sharii_vMjxN6w.jpg",
+      "description": "",
+      "clinics": [
+        1426
+      ],
+      "specializations": [
+        12
+      ],
+      "slug": "viktoriia-aleksandrovna-sharii"
+    },
+    {
+      "id": 135,
+      "name": "Охлина Кристина Николаевна",
+      "profession": "Врач стоматолог-терапевт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/kristina-nikolaevna-ohlina_24MobVf.jpg",
+      "description": "",
+      "clinics": [
+        1569
+      ],
+      "specializations": [
+        22
+      ],
+      "slug": "kristina-nikolaevna-ohlina"
+    },
+    {
+      "id": 136,
+      "name": "Королев Евгений Вадимович",
+      "profession": "Врач анестезиолог-реаниматолог",
+      "photoPath": "https://belayaraduga.ru/media/doctors/evgenii-vadimovich-korolev_i4BTBSw.jpg",
+      "description": "",
+      "clinics": [
+        1426,
+        1569,
+        1601
+      ],
+      "specializations": [
+        13
+      ],
+      "slug": "evgenii-vadimovich-korolev"
+    },
+    {
+      "id": 140,
+      "name": "Ширяева Татьяна Вячеславовна",
+      "profession": "Кандидат медицинских наук, Врач стоматолог-ортодонт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/tatiana-viacheslavovna-shiriaeva_zNpFfEj.jpg",
+      "description": "",
+      "clinics": [
+        1426
+      ],
+      "specializations": [
+        25,
+        18
+      ],
+      "slug": "tatiana-viacheslavovna-shiriaeva"
+    },
+    {
+      "id": 142,
+      "name": "Еременко Виктория Александровна",
+      "profession": "Детский врач-стоматолог",
+      "photoPath": "https://belayaraduga.ru/media/doctors/viktoriia-aleksandrovna-eremenko_n8Y3n12.jpg",
+      "description": "",
+      "clinics": [
+        1601
+      ],
+      "specializations": [
+        12
+      ],
+      "slug": "viktoriia-aleksandrovna-eremenko"
+    },
+    {
+      "id": 143,
+      "name": "Зотова  Нелли  Александровна",
+      "profession": "Врач стоматолог-гигиенист",
+      "photoPath": "https://belayaraduga.ru/media/doctors/nelli--aleksandrovna-zotova-.jpg",
+      "description": "",
+      "clinics": [
+        1426
+      ],
+      "specializations": [
+        15
+      ],
+      "slug": "nelli--aleksandrovna-zotova-"
+    },
+    {
+      "id": 146,
+      "name": "Рудинец  Кристина Андреевна",
+      "profession": "Врач стоматолог-терапевт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/kristina-andreevna-rudinets-.jpg",
+      "description": "",
+      "clinics": [
+        1426
+      ],
+      "specializations": [
+        22
+      ],
+      "slug": "kristina-andreevna-rudinets-"
+    },
+    {
+      "id": 149,
+      "name": "Вершинина Юлия Михайловна",
+      "profession": "Врач стоматолог-ортодонт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/%D0%92%D0%B5%D1%80%D1%88%D0%B8%D0%BD%D0%B8%D0%BD%D0%B0.jpg",
+      "description": "",
+      "clinics": [
+        1601
+      ],
+      "specializations": [
+        18
+      ],
+      "slug": "iuliia-mihailovna-vershinina"
+    },
+    {
+      "id": 150,
+      "name": "Брикова Анжелика Дмитриевна",
+      "profession": "Врач стоматолог-ортодонт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/%D0%91%D1%80%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0.jpg",
+      "description": "",
+      "clinics": [
+        1426,
+        1569
+      ],
+      "specializations": [
+        18
+      ],
+      "slug": "anjelika-dmitrievna-brikova"
+    },
+    {
+      "id": 151,
+      "name": "Бикмаева Элина Романовна",
+      "profession": "Врач стоматолог-гигиенист",
+      "photoPath": "https://belayaraduga.ru/media/doctors/%D0%91%D0%B8%D0%BA%D0%BC%D0%B0%D0%B5%D0%B2%D0%B0.jpg",
+      "description": "",
+      "clinics": [
+        1569
+      ],
+      "specializations": [
+        15
+      ],
+      "slug": "doctor-1692"
+    },
+    {
+      "id": 152,
+      "name": "Гусаков Сергей Вячеславович",
+      "profession": "Врач стоматолог-ортодонт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/10105.jpg",
+      "description": "",
+      "clinics": [
+        1601
+      ],
+      "specializations": [
+        18
+      ],
+      "slug": "doctor-1695"
+    },
+    {
+      "id": 153,
+      "name": "Артеменко Антон Вадимович",
+      "profession": "Врач стоматолог-терапевт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/%D0%90%D1%80%D1%82%D0%B5%D0%BC%D0%B5%D0%BD%D0%BA%D0%BE_%D0%90.%D0%92_1.jpg",
+      "description": "",
+      "clinics": [
+        524
+      ],
+      "specializations": [
+        22
+      ],
+      "slug": "artemenko-anton-vadimovich"
+    },
+    {
+      "id": 155,
+      "name": "Исхакова Гузель Салаватовна",
+      "profession": "Врач стоматолог-терапевт",
+      "photoPath": "https://belayaraduga.ru/media/doctors/ishakova-guzel-salavatovna.jpg",
+      "description": "",
+      "clinics": [
+        1569
+      ],
+      "specializations": [
+        22
+      ],
+      "slug": "ishakova-guzel-salavatovna"
+    }
+  ],
+  "specializations": [
+    {
+      "id": 27,
+      "title": "Врач стоматолог-ортопед высшей категории",
+      "slug": "vrach-stomatolog-ortoped-vysshej-kategorii"
+    },
+    {
+      "id": 26,
+      "title": "Врач стоматолог-терапевт высшей категории",
+      "slug": "stomatolog-terapevt-vysshej-kategorii"
+    },
+    {
+      "id": 29,
+      "title": "Главный анестезиолог-реаниматолог",
+      "slug": "glavnyj-anesteziolog-reanimatolog"
+    },
+    {
+      "id": 23,
+      "title": "Главный врач",
+      "slug": "glavnyj-vrach"
+    },
+    {
+      "id": 28,
+      "title": "Главный ортодонт",
+      "slug": "glavnyj-ortodont"
+    },
+    {
+      "id": 12,
+      "title": "Детский врач-стоматолог",
+      "slug": "detskij-vrach-stomatolog"
+    },
+    {
+      "id": 25,
+      "title": "Кандидат медицинских наук",
+      "slug": "kandidat-medicinskih-nauk"
+    },
+    {
+      "id": 24,
+      "title": "Медицинский директор",
+      "slug": "medicinskij-direktor"
+    },
+    {
+      "id": 13,
+      "title": "Врач анестезиолог-реаниматолог",
+      "slug": "-1"
+    },
+    {
+      "id": 14,
+      "title": "Врач стоматолог-пародонтолог",
+      "slug": "-2"
+    },
+    {
+      "id": 15,
+      "title": "Врач стоматолог-гигиенист",
+      "slug": "-3"
+    },
+    {
+      "id": 16,
+      "title": "Гнатолог",
+      "slug": "-4"
+    },
+    {
+      "id": 17,
+      "title": "Эндодонтист",
+      "slug": "-5"
+    },
+    {
+      "id": 18,
+      "title": "Врач стоматолог-ортодонт",
+      "slug": "-6"
+    },
+    {
+      "id": 19,
+      "title": "Имплантолог",
+      "slug": "-7"
+    },
+    {
+      "id": 20,
+      "title": "Врач стоматолог-хирург",
+      "slug": "-8"
+    },
+    {
+      "id": 21,
+      "title": "Врач стоматолог-ортопед",
+      "slug": "-9"
+    },
+    {
+      "id": 22,
+      "title": "Врач стоматолог-терапевт",
+      "slug": "-10"
+    }
+  ]
+}

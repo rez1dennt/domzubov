@@ -1,0 +1,227 @@
+{
+  "categories": [
+    {
+      "name": "Эстетическая стоматология",
+      "items": [
+        {
+          "name": "Отбеливание зубов",
+          "link": "/services/otbelivanie-zubov"
+        },
+        {
+          "name": "Эстетическая пародонтология (розовая эстетика)",
+          "link": "/services/esteticheskaya-parodontologiya-rozovaya-estetika"
+        },
+        {
+          "name": "Керамические виниры",
+          "link": "/services/keramicheskie-viniry"
+        }
+      ]
+    },
+    {
+      "name": "Имплантация зубов",
+      "items": [
+        {
+          "name": "Имплантация «Все-на-4/6/8»",
+          "link": "/services/prosthetics"
+        },
+        {
+          "name": "Постоянное протезирование «Все-на-6»",
+          "link": "/services/prosthetics"
+        },
+        {
+          "name": "Синус-лифтинг",
+          "link": "/services/sinus-lifting"
+        },
+        {
+          "name": "Увеличение объема костной и мягкой ткани",
+          "link": "/services/uvelichenie-obema-kostnoj-i-myagkoj-tkani"
+        },
+        {
+          "name": "Установка импланта",
+          "link": "/services/ustanovka-implanta"
+        },
+        {
+          "name": "Зубы за один день",
+          "link": "/services/zuby-za-odin-den"
+        }
+      ]
+    },
+    {
+      "name": "Протезирование",
+      "items": [
+        {
+          "name": "Протезирование зубов у людей в возрасте",
+          "link": "/services/protezirovanie-zubov-u-lyudej-v-vozraste"
+        },
+        {
+          "name": "Съемные и несъемные конструкции на имплантах",
+          "link": "/services/semnye-i-nesemnye-konstruktsii-na-implantah"
+        },
+        {
+          "name": "Циркониевые коронки на зубах и имплантах",
+          "link": "/services/tsirkonievye-koronki-na-zubah-i-implantah"
+        },
+        {
+          "name": "Цельнокерамические коронки и вкладки",
+          "link": "/services/tselnokeramicheskie-koronki"
+        }
+      ]
+    },
+    {
+      "name": "Лечение детей",
+      "items": [
+        {
+          "name": "Детская стоматология",
+          "link": "/services/adaptation-visit-for-children"
+        },
+        {
+          "name": "Адаптационный визит к врачу-стоматологу",
+          "link": "/services/adaptation-visit-for-children"
+        },
+        {
+          "name": "Лечение кариеса молочных зубов и его осложнений",
+          "link": "/services/lechenie-detskogo-cariesa-i-ego-osloznenie"
+        },
+        {
+          "name": "Профилактика и диагностика кариеса молочных и постоянных зубов у детей",
+          "link": "/services/profilaktika-i-diagnostika-detei"
+        },
+        {
+          "name": "Герметизация фиссур у детей",
+          "link": "/services/germetizacia-fisur-y-detei"
+        },
+        {
+          "name": "Исправление прикуса у детей",
+          "link": "/services/bite-correction"
+        }
+      ]
+    },
+    {
+      "name": "Исправление прикуса",
+      "items": [
+        {
+          "name": "Исправление прикуса",
+          "link": "/services/ispravlenie-prikusa"
+        },
+        {
+          "name": "Исправление прикуса на брекет-системе",
+          "link": "/services/ispravlenie-prikusa-breket"
+        },
+        {
+          "name": "Исправление прикуса с помощью элайнеров",
+          "link": "/services/ispravlenie-prikusa-with-aligners"
+        },
+        {
+          "name": "Небный расширитель",
+          "link": "/services/palatal-expander"
+        }
+      ]
+    },
+    {
+      "name": "Профилактика",
+      "items": [
+        {
+          "name": "Гигиена для пациентов с имплантами",
+          "link": "/services/professionalnaya-gigiena-dlya-implantov"
+        },
+        {
+          "name": "Гигиена для пациентов с брекетами",
+          "link": "/services/professionalnaya-gigiena-dlya-breketov"
+        },
+        {
+          "name": "Профессиональная гигиена",
+          "link": "/services/professionalnaya-gigiena"
+        },
+        {
+          "name": "Обучение гигиене зубов",
+          "link": "/services/obuchenie-gigiene-zubov"
+        },
+        {
+          "name": "Подбор средств гигиены",
+          "link": "/services/personal-hygiene"
+        },
+        {
+          "name": "Реминерализирующая терапия Icon",
+          "link": "/services/icon-remineralizing-therapy"
+        }
+      ]
+    },
+    {
+      "name": "Диагностика",
+      "items": [
+        {
+          "name": "Компьютерная томография зубов и полости рта",
+          "link": "/services/kompyuternaya-tomografiya-zubov-i-polosti-rta"
+        },
+        {
+          "name": "Диагностика скрытого кариеса",
+          "link": "/services/diagnostika-skrytogo-kariesa"
+        }
+      ]
+    },
+    {
+      "name": "Терапевтическая стоматология",
+      "items": [
+        {
+          "name": "Сохранение жизнеспособности пульпы",
+          "link": "/services/sohranenie-zhiznesposobnosti-pulpy"
+        },
+        {
+          "name": "Лечение корневых каналов под микроскопом",
+          "link": "/services/lechenie-kornevyh-kanalov-pod-mikroskopom"
+        },
+        {
+          "name": "Лечение кариеса",
+          "link": "/services/lechenie-kariesa"
+        },
+        {
+          "name": "Сложное перелечение корневых каналов",
+          "link": "/services/therapeutic-dentistry"
+        }
+      ]
+    },
+    {
+      "name": "Хирургическая стоматология",
+      "items": [
+        {
+          "name": "Удаление постоянного зуба",
+          "link": "/services/surgical-dentistry/permanent-tooth-extraction"
+        },
+        {
+          "name": "Удаление зуба «мудрости»",
+          "link": "/services/surgical-dentistry/wisdom-tooth-extraction"
+        },
+        {
+          "name": "Удаление ретинированного зуба",
+          "link": "/services/surgical-dentistry/impacted-tooth-extraction"
+        }
+      ]
+    },
+    {
+      "name": "Лечение во сне",
+      "items": [
+        {
+          "name": "Лечение во сне",
+          "link": "/services/indream"
+        },
+        {
+          "name": "Седация закисью азота",
+          "link": "/services/nitrous-oxide-sedation"
+        },
+        {
+          "name": "Общий ингаляционный наркоз (Севоран)",
+          "link": "/services/inhalation-anesthesia-sevoflurane"
+        },
+        {
+          "name": "Глубокая и поверхностная седация (Пропофол)",
+          "link": "/services/sedation-propofol"
+        }
+      ]
+    },
+    {
+      "name": "Все услуги",
+      "items": [],
+      "link": "/services"
+    }
+  ]
+}

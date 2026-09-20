@@ -1,0 +1,18 @@
+* text=auto
+*.php text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.svg text eol=lf
+*.webp binary
+*.pdf binary
+*.woff2 binary
+# Preserve whitespace in imported markup, generated CSS and third-party licenses.
+content/pages/** -whitespace
+content/shared/** -whitespace
+assets/layout.css -whitespace
+assets/fonts/*OFL.txt -whitespace

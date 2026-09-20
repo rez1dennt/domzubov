@@ -1,0 +1,28 @@
+<?php
+/** Correct dead legacy links found in the downloaded source. */
+return [
+    'taganka' => 'contacts',
+    'chertanovskaya' => 'contacts',
+    'karta-sajta' => 'sitemap',
+    'yuridicheskaya-informatsiya/index' => 'yuridicheskaya-informatsiya',
+    'politika-konfidentsialnosti' => 'privacy-policy',
+    'politika-obrabotki-personalnyh-dannyh' => 'privacy-policy',
+    'polzovatelskoe-soglashenie' => 'yuridicheskaya-informatsiya',
+    'polzovatelskoe-soglashenie/index' => 'yuridicheskaya-informatsiya',
+    'unsubscribe' => 'privacy-policy',
+    'akciya-besplatnaya-konsultatsiya-kt' => 'prices',
+    'akciya-skidka-detskoe-lechenie' => 'prices',
+    'kids-holidays' => 'prices',
+    'novogodnyaya-skidka' => 'prices',
+    'otbelivanie-novogodnee' => 'prices',
+    'services/surgical-dentistry' => 'services',
+    'serices/diagnostika-skrytogo-kariesa' => 'services/diagnostika-skrytogo-kariesa',
+    'professionalnaya-gigiena' => 'services/professionalnaya-gigiena',
+    'obuchenie-gigiene-zubov' => 'services/obuchenie-gigiene-zubov',
+    'services/professionalnaya-gigiena-dlya-detej-i-podrostkov' => 'services/profilaktika-i-diagnostika-detei',
+    'services/implantaciya-zubov' => 'services/ustanovka-implanta',
+    'services/kostnaya-plastika' => 'services/uvelichenie-obema-kostnoj-i-myagkoj-tkani',
+    'services/udalenie-zubov' => 'services/surgical-dentistry/permanent-tooth-extraction',
+    'services/protezirovanie-na-implantah' => 'services/semnye-i-nesemnye-konstruktsii-na-implantah',
+    'nalogovyj-vychet-za-lechenie/index' => 'tax-deduction',
+];

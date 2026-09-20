@@ -1,0 +1,10 @@
+const assert=require('node:assert/strict');
+const guard=require('../assets/form-guard.js');
+const valid={name:'Анна-Мария',phone:'+7 (928) 699-67-84',consent:true,email:'',message:'',website:''};
+assert.equal(guard.validate(valid).ok,true);
+for(const patch of [{name:'<script>alert(1)</script>'},{name:'А'.repeat(81)},{name:'Анна\r\nBcc: x@bad.test'},{phone:'123'},{phone:'89286996784abc'},{consent:false},{website:'https://spam.test'},{email:'x@y.test\r\nBcc: evil@test.tld'},{message:'x'.repeat(2001)}])assert.equal(guard.validate({...valid,...patch}).ok,false,JSON.stringify(patch));
+const payload=guard.validate({...valid,message:'Уточните цену &bcc=other@example.test\nСпасибо'});
+const link=guard.mailto(payload);
+assert(link.startsWith('mailto:Domzubov777%40yandex.ru?subject='));
+assert.equal((link.match(/&/g)||[]).length,1);assert(link.includes('%26bcc%3D'));assert(link.includes('%0A'));
+console.log('PASS: form fields, length limits, consent, honeypot and mailto injection');

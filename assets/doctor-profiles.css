@@ -1,0 +1,99 @@
+/* Shared doctor cards and profiles use the existing black/gold theme. */
+.dz-real-doctor-card{border:1px solid var(--line);border-radius:26px;background:var(--paper);overflow:hidden;display:flex;flex-direction:column;min-width:0;height:100%;padding:0!important;gap:0!important;text-align:left}
+.dz-real-doctor-card .dz-doctor-portrait-link{display:block!important;width:100%;overflow:hidden;flex:none}
+.dz-doctor-portrait-link>img,.dz-doctor-portrait-link>.dz-portrait-pending{display:block;width:100%;height:300px!important;max-width:none!important;border-radius:0!important;object-fit:cover;object-position:center 24%;transition:transform 400ms ease}
+.dz-doctor-portrait-link:hover>img{transform:scale(1.025)}
+.dz-portrait-pending{display:flex!important;flex-direction:column;align-items:center;justify-content:center;gap:20px;background:radial-gradient(ellipse at 50% 90%,var(--gold-soft),var(--surface-muted) 65%);color:var(--gold-ink);min-height:280px;text-align:center}
+.dz-portrait-pending>span{font-family:var(--font-heading);font-size:68px;line-height:1;border:1px solid var(--gold);padding:32px;border-radius:50%}
+.dz-portrait-pending>small{font-size:12px;letter-spacing:.03em}
+.dz-doctor-card-body{padding:25px;display:flex;flex-direction:column;flex:1;gap:15px;width:100%;min-width:0}
+.dz-real-doctor-card .dz-doctor-card-specialty{font-size:12px;line-height:1.5;color:var(--gold-ink);margin:0;min-height:36px}
+.dz-main .dz-real-doctor-card h2{font-family:var(--font-heading);font-size:21px;line-height:1.35;letter-spacing:0;margin:0;min-height:85px;font-weight:400}
+.dz-real-doctor-card h2 a{color:var(--ink)}
+.dz-real-doctor-card .dz-doctor-card-description{font-size:14px;line-height:1.6;color:var(--muted);margin:0;min-height:67px}
+.dz-doctor-card-schedule{display:flex;gap:10px;align-items:center;font-size:12px!important;line-height:1.5!important;color:var(--muted);margin:0!important}
+.dz-doctor-card-schedule svg{width:18px;height:18px;color:var(--gold-ink)}
+.dz-doctor-card-actions{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:auto;padding-top:9px}
+.dz-doctor-profile-link{display:flex;align-items:center;gap:9px;font-size:14px;color:var(--gold-ink)}
+.dz-doctor-profile-link svg{width:17px;height:17px}
+.dz-real-doctor-card .dz-btn{min-height:45px;padding:12px 16px;font-size:12px;gap:9px}
+[data-team-track]>.dz-real-doctor-card{padding:0!important;max-height:none!important;min-height:0!important;align-items:stretch!important}
+[data-team-track]>.dz-real-doctor-card .dz-doctor-portrait-link>[role=img]{max-width:none;min-width:0}
+.dz-doctors .dz-doctors-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}
+.dz-doctors .dz-doctor-portrait-link>img,.dz-doctors .dz-doctor-portrait-link>.dz-portrait-pending{height:390px!important}
+.dz-doctors .dz-real-doctor-card h2{min-height:56px}
+.dz-doctors .dz-doctor-card-specialty{min-height:0}
+.dz-doctors .dz-doctor-card-description{min-height:45px}
+.dz-profile-hero{padding-top:42px;padding-bottom:56px}
+.dz-profile-hero .dz-breadcrumb{font-size:12px;line-height:1.6;margin-bottom:35px;flex-wrap:wrap}
+.dz-profile-hero-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:64px;align-items:center}
+.dz-profile-portrait{border-radius:30px;overflow:hidden;background:var(--surface-muted)}
+.dz-profile-portrait>img,.dz-profile-portrait>.dz-portrait-pending{width:100%;height:570px;display:block;object-fit:cover;object-position:center 22%;border-radius:30px}
+.dz-profile-portrait>.dz-portrait-pending>span{font-size:95px;padding:43px}
+.dz-profile-intro h1{font-size:clamp(31px,3.5vw,48px);line-height:1.18;margin:18px 0 22px;max-width:20ch}
+.dz-profile-profession{font-size:19px;line-height:1.5;color:var(--gold-ink);margin:0 0 25px}
+.dz-profile-lead{font-size:16px;line-height:1.7;color:var(--muted);max-width:600px}
+.dz-profile-facts{display:grid;gap:14px;margin:29px 0}
+.dz-profile-facts>div{display:flex;gap:13px;align-items:flex-start;font-size:14px;line-height:1.55}
+.dz-profile-facts svg{width:21px;height:21px;color:var(--gold-ink)}
+.dz-profile-cta{display:flex;flex-wrap:wrap;align-items:center;gap:20px}
+.dz-profile-cta>a:not(.dz-btn){font-size:14px;color:var(--gold-ink);white-space:nowrap}
+.dz-profile-sections{display:flex;gap:10px;flex-wrap:wrap;padding-block:20px;border-block:1px solid var(--line)}
+.dz-profile-sections a{border:1px solid var(--line);border-radius:var(--radius-control);padding:13px 19px;font-size:13px;line-height:1.4}
+.dz-profile-sections a:hover{background:var(--gold-soft);border-color:var(--gold)}
+.dz-profile-sections span{color:var(--gold-ink);margin-left:8px}
+.dz-profile-section{padding-top:68px;padding-bottom:68px;scroll-margin-top:var(--header-height)}
+.dz-profile-section h2{font-size:clamp(27px,3vw,37px);line-height:1.25;margin-bottom:30px}
+.dz-profile-about{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px}
+.dz-profile-about p:not(.dz-eyebrow){font-size:17px;line-height:1.75;margin:0 0 20px;color:var(--muted);max-width:730px}
+.dz-profile-education{background:var(--dark);color:var(--on-dark)}
+.dz-profile-education .dz-eyebrow{color:var(--gold)}
+.dz-education-list{list-style:none;padding:0;margin:0;display:grid;gap:0}
+.dz-education-list li{display:grid;grid-template-columns:95px 1fr;gap:35px;padding:27px 0;border-top:1px solid var(--line-dark);align-items:center}
+.dz-education-list li>span{color:var(--gold);font-family:var(--font-heading);font-size:28px}
+.dz-education-list p{font-size:17px;line-height:1.65;margin:0;max-width:840px}
+.dz-competency-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.dz-competency-grid article{padding:30px;border:1px solid var(--line);border-radius:24px;background:var(--paper)}
+.dz-competency-grid article>span{font-size:12px;color:var(--gold-ink)}
+.dz-competency-grid h3{font-size:20px;line-height:1.4;margin:18px 0 14px}
+.dz-competency-grid p{font-size:15px;line-height:1.65;margin:0;color:var(--muted)}
+.dz-doctor-services{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.dz-doctor-services a{display:inline-flex;align-items:center;gap:12px;border:1px solid var(--line);border-radius:14px;padding:14px 18px;font-size:13px;line-height:1.4;max-width:100%}
+.dz-doctor-services a svg{width:18px;flex-shrink:0;color:var(--gold-ink)}
+.dz-doctor-services a:hover{background:var(--gold-soft)}
+.dz-certificates{background:var(--surface-muted)}
+.dz-certificate-heading{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.dz-certificate-heading h2{margin-bottom:10px}
+.dz-certificate-intro{color:var(--muted);font-size:14px;margin:5px 0 30px}
+.dz-certificate-controls{display:flex;gap:10px;align-items:center;flex-shrink:0}
+.dz-certificate-controls [data-gallery-prev] svg,.dz-certificate-controls [data-certificate-prev] svg{transform:rotate(180deg)}
+.dz-certificate-controls button:disabled{opacity:.4;cursor:default}
+.dz-certificate-track{position:relative;display:flex;gap:20px;overflow-x:auto;overscroll-behavior-inline:contain;scrollbar-width:thin;scrollbar-color:var(--gold) transparent;padding-bottom:17px}
+.dz-certificate-card{flex:0 0 calc((100% - 60px)/4);min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:23px;background:var(--paper)}
+.dz-certificate-image{display:flex;position:relative;align-items:center;justify-content:center;width:100%;height:205px;padding:14px;border-bottom:1px solid var(--line);background:var(--paper)}
+.dz-certificate-image img{width:100%;height:100%;object-fit:contain;border-radius:0!important}
+.dz-certificate-image>span{position:absolute;bottom:13px;right:13px;width:34px;height:34px;border-radius:50%;background:var(--gold);color:var(--ink);display:grid;place-items:center}
+.dz-certificate-image>span svg{width:17px;height:17px}
+.dz-certificate-card-copy{padding:20px}
+.dz-certificate-card-copy>p{font-size:11px;color:var(--gold-ink);line-height:1.5;margin:0 0 12px}
+.dz-certificate-card-copy h3{font-family:var(--font-sans)!important;font-size:15px;line-height:1.5;font-weight:500;margin:0}
+.dz-certificate-card-copy small{display:block;font-size:12px;line-height:1.55;margin-top:12px;color:var(--muted)}
+.dz-profile-booking{display:flex;align-items:center;justify-content:space-between;gap:32px;padding-top:64px;padding-bottom:64px}
+.dz-profile-booking h2{font-size:30px;line-height:1.3;margin:14px 0 20px}
+.dz-profile-booking p:not(.dz-eyebrow){font-size:15px;line-height:1.7;color:var(--muted)}
+.dz-certificate-dialog{width:min(1100px,calc(100% - 32px));max-height:calc(100dvh - 32px);padding:18px;background:var(--surface);border:1px solid var(--line);border-radius:24px;overflow:hidden}
+.dz-certificate-dialog[open]{display:flex;flex-direction:column;gap:14px}
+.dz-certificate-toolbar{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-shrink:0}
+.dz-certificate-toolbar>p{font-family:var(--font-sans);font-size:15px;line-height:1.45;margin:0;max-width:80%}
+.dz-certificate-toolbar>a,.dz-certificate-zoom{display:flex;align-items:center;gap:8px;font-size:13px;line-height:1.4;min-height:44px;color:var(--gold-ink)}
+.dz-certificate-toolbar>a svg{width:17px}
+.dz-certificate-canvas{height:calc(100dvh - 190px);min-height:120px;overflow:auto;background:var(--paper);border-radius:12px;overscroll-behavior:contain}
+.dz-certificate-canvas>img{display:block;width:100%;height:100%;object-fit:contain;margin:auto;border-radius:0!important}
+.dz-certificate-canvas.is-zoomed>img{width:var(--certificate-full-width);height:auto;max-width:none;max-height:none;margin:0}
+[data-certificate-counter]{font-size:12px;color:var(--muted);min-width:40px;text-align:center}
+@media(min-width:1440px){.dz-doctors .dz-doctors-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}.dz-doctors .dz-doctor-portrait-link>img,.dz-doctors .dz-doctor-portrait-link>.dz-portrait-pending{height:310px!important}.dz-doctors .dz-real-doctor-card h2{font-size:19px;min-height:78px}.dz-doctors .dz-doctor-card-body{padding:21px}.dz-doctors .dz-doctor-card-specialty{min-height:36px}.dz-doctors .dz-doctor-card-description{min-height:90px}}
+@media(max-width:1100px){.dz-profile-hero-grid{gap:35px}.dz-profile-portrait>img,.dz-profile-portrait>.dz-portrait-pending{height:500px}.dz-profile-about{gap:30px}.dz-certificate-card{flex-basis:calc((100% - 40px)/3)}.dz-profile-cta{gap:16px}.dz-profile-cta .dz-btn{font-size:13px;padding-inline:18px}}
+@media(max-width:767px){.dz-doctors .dz-doctors-grid{grid-template-columns:1fr}.dz-doctors .dz-doctor-portrait-link>img,.dz-doctors .dz-doctor-portrait-link>.dz-portrait-pending{height:360px!important}.dz-main .dz-real-doctor-card h2{font-size:22px;min-height:0}.dz-real-doctor-card .dz-doctor-card-description{min-height:0}.dz-profile-hero{padding-top:26px;padding-bottom:35px}.dz-profile-hero .dz-breadcrumb{font-size:11px;margin-bottom:24px}.dz-profile-hero-grid{grid-template-columns:1fr;gap:30px}.dz-profile-portrait{max-width:480px;width:100%;margin:auto}.dz-profile-portrait>img,.dz-profile-portrait>.dz-portrait-pending{height:410px}.dz-profile-intro h1{font-size:30px;max-width:100%;line-height:1.22;margin:15px 0 20px}.dz-profile-profession{font-size:17px;margin-bottom:20px}.dz-profile-lead{font-size:15px}.dz-profile-cta{align-items:flex-start;flex-direction:column}.dz-profile-sections{gap:8px;padding-block:17px}.dz-profile-sections a{font-size:12px;padding:11px 14px}.dz-profile-section{padding-block:42px}.dz-profile-section h2{font-size:27px}.dz-profile-about{grid-template-columns:1fr;gap:0}.dz-profile-about p:not(.dz-eyebrow){font-size:15px}.dz-education-list li{grid-template-columns:65px 1fr;gap:18px;padding:22px 0}.dz-education-list li>span{font-size:22px}.dz-education-list p{font-size:15px}.dz-competency-grid{grid-template-columns:1fr;gap:15px}.dz-competency-grid article{padding:25px}.dz-competency-grid h3{font-size:19px}.dz-certificate-card{flex-basis:82%}.dz-certificate-heading{flex-wrap:wrap;gap:12px}.dz-certificate-intro{margin-top:18px}.dz-profile-booking{flex-direction:column;align-items:flex-start;padding-block:42px;gap:15px}.dz-profile-booking h2{font-size:26px}.dz-certificate-dialog{width:calc(100% - 16px);max-height:calc(100dvh - 16px);padding:12px;border-radius:20px}.dz-certificate-toolbar{gap:8px;flex-wrap:wrap}.dz-certificate-toolbar:first-child{flex-wrap:nowrap}.dz-certificate-toolbar>p{font-size:13px}.dz-certificate-toolbar>a,.dz-certificate-zoom{font-size:12px}.dz-certificate-canvas{height:calc(100dvh - 230px)}.dz-certificate-toolbar .dz-icon-btn{width:40px;height:40px}.dz-certificate-controls{gap:7px}}
+@media(max-width:359px){.dz-profile-intro h1{font-size:27px}.dz-profile-portrait>img,.dz-profile-portrait>.dz-portrait-pending{height:360px}.dz-doctor-card-body{padding:23px}.dz-certificate-toolbar>a{width:100%}}
+@media(prefers-reduced-motion:reduce){.dz-doctor-portrait-link>img{transition:none}}
+.dz-certificate-dialog{max-width:calc(100% - 32px)}.dz-certificate-canvas{height:auto;aspect-ratio:var(--certificate-ratio,1.414);max-height:calc(100dvh - 190px);flex-shrink:1}@media(max-width:767px){.dz-certificate-dialog{max-width:calc(100% - 16px)}.dz-certificate-canvas{height:auto;max-height:calc(100dvh - 240px)}}

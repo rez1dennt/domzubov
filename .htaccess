@@ -1,0 +1,25 @@
+Options -Indexes
+LimitRequestBody 16384
+DirectoryIndex index.php
+<IfModule mod_headers.c>
+Header always unset X-Powered-By
+Header always set X-Content-Type-Options "nosniff"
+Header always set X-Frame-Options "DENY"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+Header always set Content-Security-Policy "default-src 'self'; script-src 'self'; script-src-attr 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src https://yandex.ru https://yandex.com; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'"
+</IfModule>
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} !^(GET|HEAD)$
+RewriteRule ^ - [R=405,L]
+RewriteRule (^|/)\. - [R=404,L]
+RewriteRule ^(?:app|content|templates|tools|tests|docs|tmp|var|vendor|node_modules|belayaraduga\.ru|_external)(?:/|$) - [R=404,L,NC]
+RewriteRule ^assets/(?:foundation\.css|search\.css|search\.js|phone-mask\.js|polish\.css|polish\.js|layout\.css|restoration\.css|restored\.js|doctors\.js|theme\.css|navigation\.css|accessibility\.css|editorial\.css|site\.js|navigation\.js|accessibility\.js|experience\.js|mark\.svg|brand\.svg)$ - [L]
+RewriteRule ^assets/(?:images/[a-z0-9-]+\.(?:webp|svg)|fonts/[a-z0-9-]+\.(?:woff2|css))$ - [L]
+RewriteRule ^assets/legal\.css$ - [L]
+RewriteRule ^assets/form-guard\.js$ - [L]
+RewriteRule ^assets/doctor-profiles\.(?:css|js)$ - [L]
+RewriteRule ^assets/content-polish\.css$ - [L]
+RewriteRule ^assets/documents/maret-(?:diploma|apexogenesis|periodontitis|endodontics|accreditation)\.pdf$ - [L]
+RewriteRule ^assets/documents/(?:paid-medical-services-659-2026|medical-website-118n-2025|medicines-3867r-2025|personal-data-amendment-156fz-2025)\.pdf$ - [L]
+RewriteRule ^ index.php [L,QSA]

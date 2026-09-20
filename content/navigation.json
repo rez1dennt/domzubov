@@ -1,0 +1,79 @@
+[
+    {
+        "label": "Услуги",
+        "links": [
+            {
+                "label": "Все услуги",
+                "href": "/services"
+            }
+        ]
+    },
+    {
+        "label": "О нас",
+        "links": [
+            {
+                "label": "О клинике",
+                "href": "/o-nas"
+            },
+            {
+                "label": "Отзывы",
+                "href": "/reviews"
+            },
+            {
+                "label": "Врачи",
+                "href": "/doctors"
+            }
+        ]
+    },
+    {
+        "label": "Пациентам",
+        "links": [
+            {
+                "label": "Стоимость услуг",
+                "href": "/prices"
+            },
+            {
+                "label": "Правила записи на приём",
+                "href": "/pravila-zapisi"
+            },
+            {
+                "label": "Налоговый вычет",
+                "href": "/tax-deduction"
+            },
+            {
+                "label": "Условия оплаты",
+                "href": "/insurance-companies"
+            },
+            {
+                "label": "Подарочные сертификаты",
+                "href": "/gift-certificates"
+            },
+            {
+                "label": "Программа благодарности",
+                "href": "/programma-blagodarnosti"
+            },
+            {
+                "label": "Контакты",
+                "href": "/contacts"
+            }
+        ]
+    },
+    {
+        "label": "Лечение во сне",
+        "links": [
+            {
+                "label": "Лечение во сне",
+                "href": "/services/indream"
+            }
+        ]
+    },
+    {
+        "label": "ДЕТИ",
+        "links": [
+            {
+                "label": "ДЕТИ",
+                "href": "/services/adaptation-visit-for-children"
+            }
+        ]
+    }
+]

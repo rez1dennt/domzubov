@@ -1,0 +1,1170 @@
+{
+    "akciya-besplatnaya-konsultatsiya-kt": {
+        "file": "akciya-besplatnaya-konsultatsiya-kt.html",
+        "source": "akciya-besplatnaya-konsultatsiya-kt.html",
+        "title": "Условия акции «Бесплатная консультация стоматолога + КТ» — Дом Зубов",
+        "description": "Условия проведения акции «Бесплатная консультация стоматолога + КТ» в клиниках Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "akciya-skidka-detskoe-lechenie": {
+        "file": "akciya-skidka-detskoe-lechenie.html",
+        "source": "akciya-skidka-detskoe-lechenie.html",
+        "title": "Условия акции «Скидка 10% на детское лечение» — Дом Зубов",
+        "description": "Условия проведения акции «Скидка 10% на детское лечение» в клиниках Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "contacts": {
+        "file": "contacts.html",
+        "source": "contacts.html",
+        "title": "Контакты — Дом Зубов",
+        "description": "Контакты клиник Дом Зубов. Адреса, телефоны, режим работы и как добраться до наших стоматологий в Москве. 4 клиники в разных районах: Зиларт, Динамо, Хамовники, Таганка.",
+        "document": false,
+        "preserved": true
+    },
+    "dinamo": {
+        "file": "dinamo.html",
+        "source": "dinamo.html",
+        "title": "Стоматология «Дом Зубов» у метро Динамо — Стоматология Дом Зубов",
+        "description": "Клиника, где спокойно и понятно на всех этапах — от диагностики до эстетики. Все направления, слаженная команда и возможность лечения во сне, если это нужно.",
+        "document": false,
+        "preserved": true
+    },
+    "dinamo/doctors": {
+        "file": "dinamo--doctors.html",
+        "source": "dinamo/doctors.html",
+        "title": "Врачи клиники Стоматология «Дом Зубов» у метро Динамо — Дом Зубов",
+        "description": "Специалисты клиники Стоматология «Дом Зубов» у метро Динамо. Опытные врачи-стоматологи: терапевты, ортодонты, хирурги, детские стоматологи. Запись на прием в клинику Дом Зубов Динамо.",
+        "document": false,
+        "preserved": true
+    },
+    "doctors": {
+        "file": "doctors.html",
+        "source": "doctors.html",
+        "title": "Врачи — Стоматология Дом Зубов",
+        "description": "Опытные врачи-стоматологи клиники Дом Зубов в Москве. Терапевты, хирурги, ортодонты, ортопеды, детские стоматологи. Высокая квалификация и современные методики лечения.",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/alina--stanislavovna--osmolovskaia-": {
+        "file": "doctors--alina--stanislavovna--osmolovskaia-.html",
+        "source": "doctors/alina--stanislavovna--osmolovskaia-.html",
+        "title": "Осмоловская   Алина   Станиславовна — Врач стоматолог-пародонтолог, Врач стоматолог-гигиенист — Дом Зубов",
+        "description": "Улыбка — это самый простой и искренний комплимент, который мы можем подарить миру и самим себе.\n\nЯ люблю свою работу за ее уникальность — в моих силах предотв...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/anjelika-dmitrievna-brikova": {
+        "file": "doctors--anjelika-dmitrievna-brikova.html",
+        "source": "doctors/anjelika-dmitrievna-brikova.html",
+        "title": "Брикова Анжелика Дмитриевна — Врач стоматолог-ортодонт — Дом Зубов",
+        "description": "Люблю ортодонтию за возможность видеть результат своей работы в улыбках людей.\nКаждый пациент — это история, в которой важно внимание к деталям и результату. А...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/anna-sergeevna-burdaeva": {
+        "file": "doctors--anna-sergeevna-burdaeva.html",
+        "source": "doctors/anna-sergeevna-burdaeva.html",
+        "title": "Бурдаева Анна Сергеевна — Врач стоматолог-пародонтолог, Врач стоматолог-гигиенист — Дом Зубов",
+        "description": "Ежедневно дарю людям удовольствие улыбаться, воплощаю мечты о белоснежной улыбке и помогаю поддерживать уверенность в себе! Ведь безупречная улыбка всегда сигна...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/anna-vladimirovna-lapushkina": {
+        "file": "doctors--anna-vladimirovna-lapushkina.html",
+        "source": "doctors/anna-vladimirovna-lapushkina.html",
+        "title": "Лапушкина Анна Владимировна — Врач стоматолог-гигиенист — Дом Зубов",
+        "description": "Здравствуйте! Меня зовут Лапушкина Анна. Мои пациенты каждый день дарят свою ослепительную улыбку окружающим, потому что я даю возможность улыбаться и смеяться,...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/artem-aleksandrovich-abakumov": {
+        "file": "doctors--artem-aleksandrovich-abakumov.html",
+        "source": "doctors/artem-aleksandrovich-abakumov.html",
+        "title": "Абакумов Артем Александрович — Врач стоматолог-ортопед — Дом Зубов",
+        "description": "Для меня стоматология – искусство точности. И это вдохновляет! Когда смотришь на мимику пациента, как он смеется, как говорит. Улыбка должна быть не просто «бел...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/artem-andreevich-markov": {
+        "file": "doctors--artem-andreevich-markov.html",
+        "source": "doctors/artem-andreevich-markov.html",
+        "title": "Марков Артем Андреевич — Врач стоматолог-терапевт — Дом Зубов",
+        "description": "Вижу стоматологию не как ремесло, а как непрерывно развивающуюся область медицины. В практике использую современные методы и способы лечения, лечение с операцио...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/artemenko-anton-vadimovich": {
+        "file": "doctors--artemenko-anton-vadimovich.html",
+        "source": "doctors/artemenko-anton-vadimovich.html",
+        "title": "Артеменко Антон Вадимович — Врач стоматолог-терапевт — Дом Зубов",
+        "description": "Артеменко Антон Вадимович — Врач стоматолог-терапевт в стоматологической клинике Дом Зубов. Профессиональное лечение зубов для детей и взрослых.",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/artur--olegovich--hatsukov-": {
+        "file": "doctors--artur--olegovich--hatsukov-.html",
+        "source": "doctors/artur--olegovich--hatsukov-.html",
+        "title": "Хацуков  Артур  Олегович — Имплантолог, Врач стоматолог-хирург — Дом Зубов",
+        "description": "Стоматология – не только моя профессия, но и мое призвание. Я вырос в семье врачей и с детства стремился тоже стать врачом. В работе меня вдохновляет преображен...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/bulat-rishatovich-zulkarnaev": {
+        "file": "doctors--bulat-rishatovich-zulkarnaev.html",
+        "source": "doctors/bulat-rishatovich-zulkarnaev.html",
+        "title": "Зулькарнаев Булат Ришатович — Имплантолог, Врач стоматолог-хирург — Дом Зубов",
+        "description": "Зулькарнаев Булат Ришатович — Имплантолог, Врач стоматолог-хирург в стоматологической клинике Дом Зубов. Профессиональное лечение зубов для детей и взрослых.",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/diana-azatovna-mirzoian-": {
+        "file": "doctors--diana-azatovna-mirzoian-.html",
+        "source": "doctors/diana-azatovna-mirzoian-.html",
+        "title": "Мирзоян  Диана Азатовна — Врач стоматолог-пародонтолог, Врач стоматолог-гигиенист — Дом Зубов",
+        "description": "Как однажды сказал профессор Маурицио Тонетти «Пародонтология — это не просто лечение десны. Это фундамент, на котором держится успех имплантологии, ортодонтии ...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/doctor-1692": {
+        "file": "doctors--doctor-1692.html",
+        "source": "doctors/doctor-1692.html",
+        "title": "Бикмаева Элина Романовна — Врач стоматолог-гигиенист — Дом Зубов",
+        "description": "Я считаю, что самая притягательная улыбка — это улыбка, сияющая здоровьем.\nМоя цель заключается не только в том, чтобы провести лечение на высшем уровне, но и ...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/doctor-1695": {
+        "file": "doctors--doctor-1695.html",
+        "source": "doctors/doctor-1695.html",
+        "title": "Гусаков Сергей Вячеславович — Врач стоматолог-ортодонт — Дом Зубов",
+        "description": "Ортодонтия для меня – это больше, чем выравнивание зубов. Это искусство создавать гармонию. Я вижу свою миссию в том, чтобы подарить Вам не просто идеальный ряд...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/ekaterina-andreevna-rezvova": {
+        "file": "doctors--ekaterina-andreevna-rezvova.html",
+        "source": "doctors/ekaterina-andreevna-rezvova.html",
+        "title": "Резвова Екатерина Андреевна — Врач стоматолог-пародонтолог, Врач стоматолог-хирург — Дом Зубов",
+        "description": "Стоматология для меня уже давно стала неотьемлемой частью жизни. Благодаря тому, что могу помогать людям, строить планы выздоровления и осуществлять их, я стано...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/ekaterina-petrovna-cherepanova": {
+        "file": "doctors--ekaterina-petrovna-cherepanova.html",
+        "source": "doctors/ekaterina-petrovna-cherepanova.html",
+        "title": "Черепанова Екатерина Петровна — Эндодонтист, Врач стоматолог-терапевт — Дом Зубов",
+        "description": "В своей работе люблю и ценю возможность помогать людям, быть проводником на пути к их здоровью, красивой и смелой улыбке.\nДля меня главное быть открытой, искре...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/elena-vladimirovna-landinova": {
+        "file": "doctors--elena-vladimirovna-landinova.html",
+        "source": "doctors/elena-vladimirovna-landinova.html",
+        "title": "Ландинова Елена Владимировна — Кандидат медицинских наук, Врач стоматолог-терапевт — Дом Зубов",
+        "description": "Недавно коллега сообщила мне о том, что ее старшая дочь выбрала профессию врача-стоматолога благодаря знакомству со мной. Это очень волнующий, но не первый случ...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/elizaveta-andreevna-shut": {
+        "file": "doctors--elizaveta-andreevna-shut.html",
+        "source": "doctors/elizaveta-andreevna-shut.html",
+        "title": "Шут Елизавета Андреевна — Врач стоматолог-пародонтолог, Врач стоматолог-гигиенист — Дом Зубов",
+        "description": "Я квалифицированный врач-стоматолог, работаю с использованием увеличения для обеспечения точности и качества лечения.\nНа приеме для меня важны психологический ...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/evgenii-vadimovich-korolev": {
+        "file": "doctors--evgenii-vadimovich-korolev.html",
+        "source": "doctors/evgenii-vadimovich-korolev.html",
+        "title": "Королев Евгений Вадимович — Врач анестезиолог-реаниматолог — Дом Зубов",
+        "description": "Окончил факультет «Лечебное дело» медицинского университета, прошёл ординатуру по анестезиологии и реаниматологии. Ценю командную работу и соблюдение строгих ст...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/fedchishin-nikita-olegovich": {
+        "file": "doctors--fedchishin-nikita-olegovich.html",
+        "source": "doctors/fedchishin-nikita-olegovich.html",
+        "title": "Федчишин Никита Олегович — Врач стоматолог-ортопед высшей категории — Дом Зубов",
+        "description": "Я ортопед в третьем поколении. Стоматология для меня — это сочетание науки и заботы о человеке. Я стремлюсь, чтобы каждый пациент чувствовал себя уверенно и спо...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/hachaturyan-viktoriya-yurevna": {
+        "file": "doctors--hachaturyan-viktoriya-yurevna.html",
+        "source": "doctors/hachaturyan-viktoriya-yurevna.html",
+        "title": "Хачатурян Виктория Юрьевна — Врач стоматолог-пародонтолог — Дом Зубов",
+        "description": "Залог комфортного визита — это не только высокий профессионализм, но и умение выслушать, создать спокойную, дружелюбную атмосферу.\nДля меня важно, чтобы любой ...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/ignat-igorevich-hristinin": {
+        "file": "doctors--ignat-igorevich-hristinin.html",
+        "source": "doctors/ignat-igorevich-hristinin.html",
+        "title": "Христинин Игнат Игоревич — Врач стоматолог-хирург, Врач стоматолог-терапевт — Дом Зубов",
+        "description": "Для меня важно помочь людям даже в самой сложной клинической ситуации. Моя цель изменить представление пациента о возможностях лечения и сохранения зубов. Искре...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/ishakova-guzel-salavatovna": {
+        "file": "doctors--ishakova-guzel-salavatovna.html",
+        "source": "doctors/ishakova-guzel-salavatovna.html",
+        "title": "Исхакова Гузель Салаватовна — Врач стоматолог-терапевт — Дом Зубов",
+        "description": "Так сложилось, что стоматология стала для меня нечто большим, чем просто профессия или работа. Считаю, что моя цель – не просто выявлять кариес и проводить каче...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/iuliia-mihailovna-vershinina": {
+        "file": "doctors--iuliia-mihailovna-vershinina.html",
+        "source": "doctors/iuliia-mihailovna-vershinina.html",
+        "title": "Вершинина Юлия Михайловна — Врач стоматолог-ортодонт — Дом Зубов",
+        "description": "Красота напрямую зависит от здоровья человека.\nОртодонтия – это не только про ровные зубы.\nДля меня самой важной целью при лечении является сделать человека з...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/ivanova-kristina-andreevna": {
+        "file": "doctors--ivanova-kristina-andreevna.html",
+        "source": "doctors/ivanova-kristina-andreevna.html",
+        "title": "Иванова Кристина Андреевна — Врач стоматолог-гигиенист — Дом Зубов",
+        "description": "В своей работе я ставлю во главу угла долгосрочный результат.\nПрофессиональная гигиена — это старт, а правильный домашний уход — путь к здоровой улыбке. На кон...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/kristina-alekseevna-asanova": {
+        "file": "doctors--kristina-alekseevna-asanova.html",
+        "source": "doctors/kristina-alekseevna-asanova.html",
+        "title": "Асанова Кристина Алексеевна — Врач стоматолог-гигиенист — Дом Зубов",
+        "description": "Лучше любого лечения – это профилактика. Это относится к любой медицинской сфере, в том числе и к стоматологии. Моя миссия – донести до пациентов мысль о том, ч...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/kristina-andreevna-rudinets-": {
+        "file": "doctors--kristina-andreevna-rudinets-.html",
+        "source": "doctors/kristina-andreevna-rudinets-.html",
+        "title": "Рудинец  Кристина Андреевна — Врач стоматолог-терапевт — Дом Зубов",
+        "description": "Моя главная цель — помочь пациентам сохранить здоровую и красивую улыбку. В своей работе я делаю акцент на бережном и безболезненном лечении, ведь уверена, что ...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/kristina-mihailovna--tarasenko": {
+        "file": "doctors--kristina-mihailovna--tarasenko.html",
+        "source": "doctors/kristina-mihailovna--tarasenko.html",
+        "title": "Тарасенко Кристина Михайловна — Эндодонтист, Врач стоматолог-терапевт — Дом Зубов",
+        "description": "Я очень люблю свою работу, вкладываю в нее все свои силы и душу. Меня очень вдохновляет мысль о том, что мои пациенты приобретают красивую улыбку. Я становлюсь ...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/kristina-mihailovna-soboleva": {
+        "file": "doctors--kristina-mihailovna-soboleva.html",
+        "source": "doctors/kristina-mihailovna-soboleva.html",
+        "title": "Соболева Кристина Михайловна — Врач стоматолог-терапевт — Дом Зубов",
+        "description": "Лично для меня, стоматология – это не работа, а часть моей жизни, в которой я реализовываю себя как врач, общаюсь с интересными людьми и завоевываю их доверие, ...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/kristina-nikolaevna-ohlina": {
+        "file": "doctors--kristina-nikolaevna-ohlina.html",
+        "source": "doctors/kristina-nikolaevna-ohlina.html",
+        "title": "Охлина Кристина Николаевна — Врач стоматолог-терапевт — Дом Зубов",
+        "description": "Сегодня посвящаю себя тому, что мне  действительно нравится – помогать людям. В первую очередь я прививаю привычки, которые сохранят молодость Ваших зубов, ведь...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/mariam-shamilevna--gaeva": {
+        "file": "doctors--mariam-shamilevna--gaeva.html",
+        "source": "doctors/mariam-shamilevna--gaeva.html",
+        "title": "Гаева Мариам Шамилевна — Врач стоматолог-терапевт — Дом Зубов",
+        "description": "Я считаю, что профессия врача – это действительно призвание! В момент, когда пациент переступает порог нашего кабинета, он может испытывать страх, тревогу, сомн...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/nadejda-vladimirovna-serebriakova": {
+        "file": "doctors--nadejda-vladimirovna-serebriakova.html",
+        "source": "doctors/nadejda-vladimirovna-serebriakova.html",
+        "title": "Серебрякова Надежда Владимировна — Детский врач-стоматолог — Дом Зубов",
+        "description": "Всегда стремлюсь к улучшению своих профессиональных навыков, применяю в работе новейшие технологии, требовательна к себе как к профессионалу, люблю свою професс...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/nelli--aleksandrovna-zotova-": {
+        "file": "doctors--nelli--aleksandrovna-zotova-.html",
+        "source": "doctors/nelli--aleksandrovna-zotova-.html",
+        "title": "Зотова  Нелли  Александровна — Врач стоматолог-гигиенист — Дом Зубов",
+        "description": "С особой тщательностью и аккуратностью провожу все процедуры в полости рта. Для меня важно не только обеспечить высокое качество лечения, но и создать комфортну...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/nikita-iurevich-nikitin": {
+        "file": "doctors--nikita-iurevich-nikitin.html",
+        "source": "doctors/nikita-iurevich-nikitin.html",
+        "title": "Никитин Никита Юрьевич — Врач стоматолог-ортопед — Дом Зубов",
+        "description": "Занимаюсь протезированием на имплантатах при частичной и полной адентии, а так же эстетической реабилитацией пациентов с помощью керамических виниров. Владею ми...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/nikolai-nikolaevich-selevich": {
+        "file": "doctors--nikolai-nikolaevich-selevich.html",
+        "source": "doctors/nikolai-nikolaevich-selevich.html",
+        "title": "Селевич Николай Николаевич — Главный анестезиолог-реаниматолог, Врач анестезиолог-реаниматолог — Дом Зубов",
+        "description": "Анестезиолог – врач, о котором мало что известно. Представления о нашей работе туманны и зачастую полны причудливых мифов. Но именно анестезиологу пациент довер...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/oksentyuk-alina-davidovna": {
+        "file": "doctors--oksentyuk-alina-davidovna.html",
+        "source": "doctors/oksentyuk-alina-davidovna.html",
+        "title": "Оксентюк Алина Давидовна — Врач стоматолог-ортодонт — Дом Зубов",
+        "description": "Ортодонтию как специальность я полюбила еще на первом курсе медицинского университета и сразу же поняла, что хочу развиваться именно в этом направлении. В своей...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/olga--andreevna-skidanova": {
+        "file": "doctors--olga--andreevna-skidanova.html",
+        "source": "doctors/olga--andreevna-skidanova.html",
+        "title": "Скиданова Ольга  Андреевна — Эндодонтист, Врач стоматолог-терапевт — Дом Зубов",
+        "description": "Моя приоритетная задача – забота о Вашем здоровье, я горжусь тем, что могу помочь Вам обрести здоровую и ослепительную улыбку.\nНа каждом приеме я стараюсь созд...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/olga-sergeevna-kuchkareva": {
+        "file": "doctors--olga-sergeevna-kuchkareva.html",
+        "source": "doctors/olga-sergeevna-kuchkareva.html",
+        "title": "Кучкарева Ольга Сергеевна — Врач стоматолог-гигиенист — Дом Зубов",
+        "description": "Для меня главное в моем деле – это высокие практические навыки, владение современными протоколами лечения, качество и результат, аккуратность, комфорт и спокойс...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/ruben-nikolaevich-ambartsumian": {
+        "file": "doctors--ruben-nikolaevich-ambartsumian.html",
+        "source": "doctors/ruben-nikolaevich-ambartsumian.html",
+        "title": "Амбарцумян Рубен Николаевич — Главный врач, Врач стоматолог-ортопед — Дом Зубов",
+        "description": "Люблю свою работу. Делаю все, чтобы люди улыбались и наслаждались трапезой. А еще, для меня функция неотделима от эстетики. Я не просто устанавливаю виниры или ...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/sergei-aleksandrovich-bosenko": {
+        "file": "doctors--sergei-aleksandrovich-bosenko.html",
+        "source": "doctors/sergei-aleksandrovich-bosenko.html",
+        "title": "Босенко Сергей Александрович — Врач анестезиолог-реаниматолог — Дом Зубов",
+        "description": "Практически всегда наша работа остается «за кадром», но с каждым из моих пациентов мы вместе проходим путь к выздоровлению максимально комфортно и без боли.\nНа...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/solyanik-ekaterina-konstantinovna": {
+        "file": "doctors--solyanik-ekaterina-konstantinovna.html",
+        "source": "doctors/solyanik-ekaterina-konstantinovna.html",
+        "title": "Соляник Екатерина Константиновна — Гнатолог, Врач стоматолог-ортопед — Дом Зубов",
+        "description": "Моя профессия – это то, что ежедневно наполняет мою жизнь смыслом и вдохновляет на постоянное развитие.\nЯ специализируюсь на восстановлении отдельных зубов, а ...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/stepan-dmitrievich-semenov": {
+        "file": "doctors--stepan-dmitrievich-semenov.html",
+        "source": "doctors/stepan-dmitrievich-semenov.html",
+        "title": "Семенов Степан Дмитриевич — Врач стоматолог-гигиенист — Дом Зубов",
+        "description": "Придерживаюсь работы в соответствии с современными протоколами, что позволяет мне обеспечивать наилучшие результаты для здоровья зубов и десен.\nМоя главная мот...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/svetlana-vladimirovna-gridneva": {
+        "file": "doctors--svetlana-vladimirovna-gridneva.html",
+        "source": "doctors/svetlana-vladimirovna-gridneva.html",
+        "title": "Гриднева Светлана Владимировна — Главный ортодонт, Гнатолог, Врач стоматолог-ортодонт — Дом Зубов",
+        "description": "Выбрала ортодонтию не головой, а сердцем. Люблю эту специальность до глубины души. Работаю как с детьми, так и со взрослыми. Занимаюсь как частичной ортодонтией...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/tatiana-viacheslavovna-shiriaeva": {
+        "file": "doctors--tatiana-viacheslavovna-shiriaeva.html",
+        "source": "doctors/tatiana-viacheslavovna-shiriaeva.html",
+        "title": "Ширяева Татьяна Вячеславовна — Кандидат медицинских наук, Врач стоматолог-ортодонт — Дом Зубов",
+        "description": "Для меня ортодонтия – это не просто профессия, а форма диалога с каждым пациентом, где мы вместе создаём не только эстетику улыбки, но и её внутреннюю гармонию....",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/viktoriia--vitalevna--tuaeva-": {
+        "file": "doctors--viktoriia--vitalevna--tuaeva-.html",
+        "source": "doctors/viktoriia--vitalevna--tuaeva-.html",
+        "title": "Туаева  Виктория  Витальевна — Врач стоматолог-терапевт — Дом Зубов",
+        "description": "В семье инженеров и математиков, я всегда мечтала стать врачом, лечить людей и приносить пользу людям вокруг! Любовь к деталям, ответственный подход к делу, жел...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/viktoriia-aleksandrovna-eremenko": {
+        "file": "doctors--viktoriia-aleksandrovna-eremenko.html",
+        "source": "doctors/viktoriia-aleksandrovna-eremenko.html",
+        "title": "Еременко Виктория Александровна — Детский врач-стоматолог — Дом Зубов",
+        "description": "Я помогаю малышам не бояться зубного врача, а их родителям — быть спокойными за здоровье детских улыбок!  \n\nВ работе я использую:  \nИгровой подход — чтобы ле...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/viktoriia-aleksandrovna-gabeeva": {
+        "file": "doctors--viktoriia-aleksandrovna-gabeeva.html",
+        "source": "doctors/viktoriia-aleksandrovna-gabeeva.html",
+        "title": "Габеева Виктория Александровна — Главный врач, Врач стоматолог-терапевт — Дом Зубов",
+        "description": "Стоматология – это моя душа. Та самая специальность, в которой ты врач, психолог, ювелир и чуть-чуть волшебник.\nЧувствую, что помогать людям – это моё призвани...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/viktoriia-aleksandrovna-sharii": {
+        "file": "doctors--viktoriia-aleksandrovna-sharii.html",
+        "source": "doctors/viktoriia-aleksandrovna-sharii.html",
+        "title": "Шарый Виктория Александровна — Детский врач-стоматолог — Дом Зубов",
+        "description": "Детям важно ощущать, что их понимают и уважают. Эмоциональный интеллект врача играет огромную роль в этом процессе. \nДля меня главное быть чуткой, открытой и и...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/vladislav--alekseevich-bondar-": {
+        "file": "doctors--vladislav--alekseevich-bondar-.html",
+        "source": "doctors/vladislav--alekseevich-bondar-.html",
+        "title": "Бондарь  Владислав  Алексеевич — Врач стоматолог-пародонтолог, Врач стоматолог-хирург — Дом Зубов",
+        "description": "Моя профессия для меня — это семейное дело: вдохновил меня стать врачом мой папа, он тоже стоматолог. В детстве я мечтал быть артистом, и от этой мечты у меня о...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/vladislav--valerevich--liubkin-": {
+        "file": "doctors--vladislav--valerevich--liubkin-.html",
+        "source": "doctors/vladislav--valerevich--liubkin-.html",
+        "title": "Любкин  Владислав  Валерьевич — Детский врач-стоматолог, Врач стоматолог-терапевт — Дом Зубов",
+        "description": "Большинство наших действий, шагов и слов определяют нашу судьбу и место в этом мире. Свой путь врача я начал с шестого класса, объявив о своем выборе видения се...",
+        "document": false,
+        "preserved": true
+    },
+    "doctors/zametalina-mariya-alekssevna": {
+        "file": "doctors--zametalina-mariya-alekssevna.html",
+        "source": "doctors/zametalina-mariya-alekssevna.html",
+        "title": "Заметалина Мария Алексеевна — Врач стоматолог-терапевт — Дом Зубов",
+        "description": "Как врачу и узкому специалисту, мне важно совмещать глубокую 16-летнюю клиническую практику и современные знания, и подходы в лечении. \nКонтакт с пациентом, ум...",
+        "document": false,
+        "preserved": true
+    },
+    "gift-certificates": {
+        "file": "gift-certificates.html",
+        "source": "gift-certificates.html",
+        "title": "Подарочные сертификаты — Дом Зубов",
+        "description": "Подарочные сертификаты на стоматологические услуги в клинике Дом Зубов. Подарите красивую улыбку и здоровые зубы своим близким.",
+        "document": false,
+        "preserved": true
+    },
+    "hamovniki": {
+        "file": "hamovniki.html",
+        "source": "hamovniki.html",
+        "title": "Стоматология «Дом Зубов» в Хамовниках — Стоматология Дом Зубов",
+        "description": "Современная клиника, где сочетаются высокие медицинские стандарты, технологичность и уважительное отношение. Эстетика пространства — дополнение к качеству, кото...",
+        "document": false,
+        "preserved": true
+    },
+    "hamovniki/doctors": {
+        "file": "hamovniki--doctors.html",
+        "source": "hamovniki/doctors.html",
+        "title": "Врачи клиники Стоматология «Дом Зубов» в Хамовниках — Дом Зубов",
+        "description": "Специалисты клиники Стоматология «Дом Зубов» в Хамовниках. Опытные врачи-стоматологи: терапевты, ортодонты, хирурги, детские стоматологи. Запись на прием в клинику Дом Зубов Хамовники.",
+        "document": false,
+        "preserved": true
+    },
+    "index": {
+        "file": "index.html",
+        "source": "index.html",
+        "title": "Стоматология Дом Зубов — детская и взрослая клиника",
+        "description": "Стоматологические клиники Дом Зубов в Москве. Профессиональное лечение зубов для детей и взрослых, имплантация, протезирование, ортодонтия. Современное оборудование и опытные врачи.",
+        "document": false,
+        "preserved": true
+    },
+    "insurance-companies": {
+        "file": "insurance-companies.html",
+        "source": "insurance-companies.html",
+        "title": "Страховые компании — Дом Зубов",
+        "description": "Стоматологическая клиника Дом Зубов работает со страховыми компаниями. Лечение зубов по ДМС, полис добровольного медицинского страхования.",
+        "document": false,
+        "preserved": true
+    },
+    "karta-sajta": {
+        "file": "karta-sajta.html",
+        "source": "karta-sajta.html",
+        "title": "Карта сайта — Дом Зубов",
+        "description": "Структура сайта клиники Дом Зубов. Все страницы и разделы в одном месте: услуги, врачи, клиники, контакты и полезная информация.",
+        "document": false,
+        "preserved": true
+    },
+    "kids-holidays": {
+        "file": "kids-holidays.html",
+        "source": "kids-holidays.html",
+        "title": "Праздники для маленьких героев — Дом Зубов",
+        "description": "Праздники для маленьких героев в Доме Зубов. Знакомим детей со стоматологией в формате игры и приключений. Детские мероприятия и праздники в стоматологической клинике.",
+        "document": false,
+        "preserved": true
+    },
+    "novogodnyaya-skidka": {
+        "file": "novogodnyaya-skidka.html",
+        "source": "novogodnyaya-skidka.html",
+        "title": "Скидка 10% на детское лечение до 15 декабря — Дом Зубов",
+        "description": "Перед Новым годом детей ждёт много сладких подарков — самое время позаботиться о зубах. До конца 2025 года действует скидка 10% на лечение у детских стоматологов.",
+        "document": false,
+        "preserved": true
+    },
+    "o-nas": {
+        "file": "o-nas.html",
+        "source": "o-nas.html",
+        "title": "О нас — Стоматология Дом Зубов",
+        "description": "Стоматологические клиники Дом Зубов в Москве. Наша цель, история, команда врачей и современные технологии. Мы лечим вас так, как лечили бы своих близких.",
+        "document": false,
+        "preserved": true
+    },
+    "otbelivanie-novogodnee": {
+        "file": "otbelivanie-novogodnee.html",
+        "source": "otbelivanie-novogodnee.html",
+        "title": "Сияющая улыбка к Новому году — Отбеливание зубов — Дом Зубов",
+        "description": "Пройдите отбеливание заранее и наслаждайтесь праздниками без «белой диеты». Встретите Новый год с белоснежной улыбкой и сможете наслаждаться любимыми блюдами.",
+        "document": false,
+        "preserved": true
+    },
+    "pdf/consent_personal_data_soglasie-na-opd-br-obshchee-2-2_pdf": {
+        "file": "pdf--consent_personal_data_soglasie-na-opd-br-obshchee-2-2_pdf.html",
+        "source": "pdf/consent_personal_data_soglasie-na-opd-br-obshchee-2-2_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/contacts_authorities_Adresa-i-kontaktnye-dannye-upolnomochennyh-organov-v-sfere-zdravoohraneniya_pdf": {
+        "file": "pdf--contacts_authorities_Adresa-i-kontaktnye-dannye-upolnomochennyh-organov-v-sfere-zdravoohraneniya_pdf.html",
+        "source": "pdf/contacts_authorities_Adresa-i-kontaktnye-dannye-upolnomochennyh-organov-v-sfere-zdravoohraneniya_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/drug_lists_Perechen-zhiznenno-neobhodimyh-i-vazhnejshih-lekarstvennyh-preparatov-dlya-meditsinskogo-primeneniya_pdf": {
+        "file": "pdf--drug_lists_Perechen-zhiznenno-neobhodimyh-i-vazhnejshih-lekarstvennyh-preparatov-dlya-meditsinskogo-primeneniya_pdf.html",
+        "source": "pdf/drug_lists_Perechen-zhiznenno-neobhodimyh-i-vazhnejshih-lekarstvennyh-preparatov-dlya-meditsinskogo-primeneniya_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/law_2300_Zakon-RF-O-zashhite-prav-potrebitelej_pdf": {
+        "file": "pdf--law_2300_Zakon-RF-O-zashhite-prav-potrebitelej_pdf.html",
+        "source": "pdf/law_2300_Zakon-RF-O-zashhite-prav-potrebitelej_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/law_323_Federalnyj-zakon-Ob-osnovah-ohrany-zdorovya-grazhdan-v-Rossijskoj-Federatsii_pdf": {
+        "file": "pdf--law_323_Federalnyj-zakon-Ob-osnovah-ohrany-zdorovya-grazhdan-v-Rossijskoj-Federatsii_pdf.html",
+        "source": "pdf/law_323_Federalnyj-zakon-Ob-osnovah-ohrany-zdorovya-grazhdan-v-Rossijskoj-Federatsii_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/law_326_Federalnyj-zakon-Ob-obyazatelnom-meditsinskom-strahovanii-v-Rossijskoj-Federatsii_pdf": {
+        "file": "pdf--law_326_Federalnyj-zakon-Ob-obyazatelnom-meditsinskom-strahovanii-v-Rossijskoj-Federatsii_pdf.html",
+        "source": "pdf/law_326_Federalnyj-zakon-Ob-obyazatelnom-meditsinskom-strahovanii-v-Rossijskoj-Federatsii_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/license_1_Litsenziya-BR1_pdf": {
+        "file": "pdf--license_1_Litsenziya-BR1_pdf.html",
+        "source": "pdf/license_1_Litsenziya-BR1_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/license_center_Litsenziya-BR-TSentr_pdf": {
+        "file": "pdf--license_center_Litsenziya-BR-TSentr_pdf.html",
+        "source": "pdf/license_center_Litsenziya-BR-TSentr_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/license_main_Litsenziya-Br_pdf": {
+        "file": "pdf--license_main_Litsenziya-Br_pdf.html",
+        "source": "pdf/license_main_Litsenziya-Br_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/opdAds_pdf": {
+        "file": "pdf--opdAds_pdf.html",
+        "source": "pdf/opdAds_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/opdReviewsNew_pdf": {
+        "file": "pdf--opdReviewsNew_pdf.html",
+        "source": "pdf/opdReviewsNew_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/price_list_price_pdf": {
+        "file": "pdf--price_list_price_pdf.html",
+        "source": "pdf/price_list_price_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/program_guarantees_13-Postanovlenie-Pravitelstva-RF-ot-28_12_2021-N-2505_pdf": {
+        "file": "pdf--program_guarantees_13-Postanovlenie-Pravitelstva-RF-ot-28_12_2021-N-2505_pdf.html",
+        "source": "pdf/program_guarantees_13-Postanovlenie-Pravitelstva-RF-ot-28_12_2021-N-2505_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/program_guarantees_moscow_13-1-Postanovlenie-Pravitelstva-Moskvy-ot-30_12_2020-N-2401-PP-__pdf": {
+        "file": "pdf--program_guarantees_moscow_13-1-Postanovlenie-Pravitelstva-Moskvy-ot-30_12_2020-N-2401-PP-__pdf.html",
+        "source": "pdf/program_guarantees_moscow_13-1-Postanovlenie-Pravitelstva-Moskvy-ot-30_12_2020-N-2401-PP-__pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/requisites_1_OOO_Belaya_raduga_1_rekvizity_dlya_sai-ta_copy_pdf": {
+        "file": "pdf--requisites_1_OOO_Belaya_raduga_1_rekvizity_dlya_sai-ta_copy_pdf.html",
+        "source": "pdf/requisites_1_OOO_Belaya_raduga_1_rekvizity_dlya_sai-ta_copy_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/requisites_center_OOO_Belaya_raduga_centr_rekvizity_dlya_sai-ta_pdf": {
+        "file": "pdf--requisites_center_OOO_Belaya_raduga_centr_rekvizity_dlya_sai-ta_pdf.html",
+        "source": "pdf/requisites_center_OOO_Belaya_raduga_centr_rekvizity_dlya_sai-ta_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/requisites_main_OOO_Belaya_raduga_rekvizity_dlya_sai-ta_so_vsemi_podrazdeleniyami_copy_pdf": {
+        "file": "pdf--requisites_main_OOO_Belaya_raduga_rekvizity_dlya_sai-ta_so_vsemi_podrazdeleniyami_copy_pdf.html",
+        "source": "pdf/requisites_main_OOO_Belaya_raduga_rekvizity_dlya_sai-ta_so_vsemi_podrazdeleniyami_copy_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/rights_patients_Prava-i-obyazannosti-grazhdan-v-sfere-ohrany-zdorovya_pdf": {
+        "file": "pdf--rights_patients_Prava-i-obyazannosti-grazhdan-v-sfere-ohrany-zdorovya_pdf.html",
+        "source": "pdf/rights_patients_Prava-i-obyazannosti-grazhdan-v-sfere-ohrany-zdorovya_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/sout_leningradskiy_Otchet_SOUT_Leningradskij_prospekt_pdf": {
+        "file": "pdf--sout_leningradskiy_Otchet_SOUT_Leningradskij_prospekt_pdf.html",
+        "source": "pdf/sout_leningradskiy_Otchet_SOUT_Leningradskij_prospekt_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/sout_n_krasnoselskaya_Otchet_SOUT_Nizhnyaya_Krasnoselskaya_pdf": {
+        "file": "pdf--sout_n_krasnoselskaya_Otchet_SOUT_Nizhnyaya_Krasnoselskaya_pdf.html",
+        "source": "pdf/sout_n_krasnoselskaya_Otchet_SOUT_Nizhnyaya_Krasnoselskaya_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/sout_rublevskoe_Otchet-SOUT-Rublevskoe-shosse_pdf": {
+        "file": "pdf--sout_rublevskoe_Otchet-SOUT-Rublevskoe-shosse_pdf.html",
+        "source": "pdf/sout_rublevskoe_Otchet-SOUT-Rublevskoe-shosse_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "pdf/Правила_поведения_пациентов_и_посетителей_2_pdf": {
+        "file": "pdf--Правила_поведения_пациентов_и_посетителей_2_pdf.html",
+        "source": "pdf/Правила_поведения_пациентов_и_посетителей_2_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "policy/ooo-belaia-raduga-dogovor_pdf": {
+        "file": "policy--ooo-belaia-raduga-dogovor_pdf.html",
+        "source": "policy/ooo-belaia-raduga-dogovor_pdf.html",
+        "title": "Дом Зубов",
+        "description": "",
+        "document": true,
+        "preserved": true
+    },
+    "politika-konfidentsialnosti": {
+        "file": "politika-konfidentsialnosti.html",
+        "source": "politika-konfidentsialnosti.html",
+        "title": "Политика конфиденциальности — Дом Зубов",
+        "description": "Политика конфиденциальности и обработки персональных данных стоматологических клиник Дом Зубов. Защита персональных данных пациентов в соответствии с ФЗ-152.",
+        "document": false,
+        "preserved": true
+    },
+    "politika-obrabotki-personalnyh-dannyh": {
+        "file": "politika-obrabotki-personalnyh-dannyh.html",
+        "source": "politika-obrabotki-personalnyh-dannyh.html",
+        "title": "Политика в отношении обработки персональных данных — Дом Зубов",
+        "description": "Политика ООО «Дом Зубов» в отношении обработки персональных данных. Цели сбора, правовые основания, порядок и условия обработки персональных данных.",
+        "document": false,
+        "preserved": true
+    },
+    "polzovatelskoe-soglashenie": {
+        "file": "polzovatelskoe-soglashenie.html",
+        "source": "polzovatelskoe-soglashenie.html",
+        "title": "Пользовательское соглашение — Дом Зубов",
+        "description": "Пользовательское соглашение о порядке доступа и использования сервиса \"Личный кабинет Дом Зубов\". Правила использования онлайн-сервисов клиники.",
+        "document": false,
+        "preserved": true
+    },
+    "polzovatelskoe-soglashenie/index": {
+        "file": "polzovatelskoe-soglashenie--index.html",
+        "source": "polzovatelskoe-soglashenie/index.html",
+        "title": "Пользовательское соглашение — Дом Зубов",
+        "description": "Пользовательское соглашение о порядке доступа и использования сервиса \"Личный кабинет Дом Зубов\". Правила использования онлайн-сервисов клиники.",
+        "document": false,
+        "preserved": true
+    },
+    "pravila-zapisi": {
+        "file": "pravila-zapisi.html",
+        "source": "pravila-zapisi.html",
+        "title": "Правила записи на приём — Дом Зубов",
+        "description": "Правила записи на приём в стоматологические клиники Дом Зубов: способы записи, необходимые документы, информация для первого визита.",
+        "document": false,
+        "preserved": true
+    },
+    "prices": {
+        "file": "prices.html",
+        "source": "prices.html",
+        "title": "Цены на стоматологические услуги — Дом Зубов",
+        "description": "Прозрачные цены на стоматологические услуги в клиниках Дом Зубов. Консультации, лечение, имплантация, протезирование, ортодонтия. Фиксированные цены без скрытых платежей.",
+        "document": false,
+        "preserved": true
+    },
+    "program-conditions": {
+        "file": "program-conditions.html",
+        "source": "program-conditions.html",
+        "title": "Условия программы благодарности — Дом Зубов",
+        "description": "Подробные условия участия в программе благодарности клиники Дом Зубов. Узнайте о бонусах, правилах использования и регистрации в программе.",
+        "document": false,
+        "preserved": true
+    },
+    "programma-blagodarnosti": {
+        "file": "programma-blagodarnosti.html",
+        "source": "programma-blagodarnosti.html",
+        "title": "Программа благодарности — Дом Зубов",
+        "description": "Программа благодарности Дома Зубов. Вдохновляйте других, получайте привилегии! Станьте частью эксклюзивного сообщества, получайте привилегии за рекомендации.",
+        "document": false,
+        "preserved": true
+    },
+    "reviews": {
+        "file": "reviews.html",
+        "source": "reviews.html",
+        "title": "Отзывы — Стоматология Дом Зубов",
+        "description": "Отзывы пациентов о клинике Дом Зубов. Реальные истории лечения, впечатления о работе врачей и качестве стоматологических услуг.",
+        "document": false,
+        "preserved": true
+    },
+    "services": {
+        "file": "services.html",
+        "source": "services.html",
+        "title": "Услуги — Стоматология Дом Зубов",
+        "description": "Полный спектр стоматологических услуг: терапия, ортодонтия, имплантация, протезирование, хирургия, детская стоматология. Современные методы лечения и опытные врачи.",
+        "document": false,
+        "preserved": true
+    },
+    "services/adaptation-visit-for-children": {
+        "file": "services--adaptation-visit-for-children.html",
+        "source": "services/adaptation-visit-for-children.html",
+        "title": "Адаптационный визит для детей — Дом Зубов",
+        "description": "Адаптационный визит к врачу-стоматологу для детей — знакомство с клиникой и врачом в игровой форме. Помогаем ребенку преодолеть страх стоматолога.",
+        "document": false,
+        "preserved": true
+    },
+    "services/bite-correction": {
+        "file": "services--bite-correction.html",
+        "source": "services/bite-correction.html",
+        "title": "Исправление прикуса у детей — Дом Зубов",
+        "description": "Исправление прикуса в детском возрасте. Брекеты и элайнеры для детей. Правильный прикус помогает челюстям развиваться гармонично и защищает суставы от перегрузок.",
+        "document": false,
+        "preserved": true
+    },
+    "services/diagnostika-skrytogo-kariesa": {
+        "file": "services--diagnostika-skrytogo-kariesa.html",
+        "source": "services/diagnostika-skrytogo-kariesa.html",
+        "title": "Диагностика скрытого кариеса — Дом Зубов",
+        "description": "Современная диагностика скрытого кариеса. Выявление кариеса на ранних стадиях, точная диагностика в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/esteticheskaya-parodontologiya-rozovaya-estetika": {
+        "file": "services--esteticheskaya-parodontologiya-rozovaya-estetika.html",
+        "source": "services/esteticheskaya-parodontologiya-rozovaya-estetika.html",
+        "title": "Эстетическая пародонтология (розовая эстетика) — Дом Зубов",
+        "description": "Эстетическая пародонтология и розовая эстетика десен. Коррекция контура и цвета десны для идеальной улыбки в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/germetizacia-fisur-y-detei": {
+        "file": "services--germetizacia-fisur-y-detei.html",
+        "source": "services/germetizacia-fisur-y-detei.html",
+        "title": "Герметизация фиссур у детей — Дом Зубов",
+        "description": "Герметизация фиссур для профилактики кариеса у детей. Безболезненная процедура, надежная защита зубов в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/icon-remineralizing-therapy": {
+        "file": "services--icon-remineralizing-therapy.html",
+        "source": "services/icon-remineralizing-therapy.html",
+        "title": "Реминерализирующая терапия ICON — Дом Зубов",
+        "description": "Реминерализирующая терапия ICON — лечение кариеса без сверления. Инновационная технология восстановления эмали на ранних стадиях кариеса без боли и анестезии.",
+        "document": false,
+        "preserved": true
+    },
+    "services/indream": {
+        "file": "services--indream.html",
+        "source": "services/indream.html",
+        "title": "Безопасное лечение во сне — Дом Зубов",
+        "description": "Безопасное лечение во сне для взрослых и детей в клинике Дом Зубов. Спокойно, без боли, без воспоминаний. Лечение под седацией с контролем анестезиолога.",
+        "document": false,
+        "preserved": true
+    },
+    "services/inhalation-anesthesia-sevoflurane": {
+        "file": "services--inhalation-anesthesia-sevoflurane.html",
+        "source": "services/inhalation-anesthesia-sevoflurane.html",
+        "title": "Ингаляционный наркоз Севофлюран — Дом Зубов",
+        "description": "Ингаляционный наркоз Севофлюраном в клинике Дом Зубов. Безопасный общий наркоз для стоматологического лечения детей и взрослых. Быстрое пробуждение и восстановление.",
+        "document": false,
+        "preserved": true
+    },
+    "services/ispravlenie-prikusa": {
+        "file": "services--ispravlenie-prikusa.html",
+        "source": "services/ispravlenie-prikusa.html",
+        "title": "Исправление прикуса — Дом Зубов",
+        "description": "Исправление прикуса в любом возрасте. Брекеты и элайнеры, современные методы ортодонтического лечения в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/ispravlenie-prikusa-breket": {
+        "file": "services--ispravlenie-prikusa-breket.html",
+        "source": "services/ispravlenie-prikusa-breket.html",
+        "title": "Исправление прикуса на брекет-системе — Дом Зубов",
+        "description": "Ортодонтическое лечение и исправление прикуса на брекет-системе. Внешние и внутренние брекеты в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/ispravlenie-prikusa-with-aligners": {
+        "file": "services--ispravlenie-prikusa-with-aligners.html",
+        "source": "services/ispravlenie-prikusa-with-aligners.html",
+        "title": "Исправление прикуса элайнерами — Дом Зубов",
+        "description": "Исправление прикуса невидимыми элайнерами (капами). Комфортное лечение без брекетов, эстетичное решение в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/keramicheskie-viniry": {
+        "file": "services--keramicheskie-viniry.html",
+        "source": "services/keramicheskie-viniry.html",
+        "title": "Керамические виниры — Дом Зубов",
+        "description": "Керамические виниры для идеальной улыбки. Эстетичные, долговечные, безопасные. Профессиональная установка виниров в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/kompyuternaya-tomografiya-zubov-i-polosti-rta": {
+        "file": "services--kompyuternaya-tomografiya-zubov-i-polosti-rta.html",
+        "source": "services/kompyuternaya-tomografiya-zubov-i-polosti-rta.html",
+        "title": "Компьютерная томография зубов и полости рта — Дом Зубов",
+        "description": "Компьютерная томография (КТ) зубов и полости рта. Точная 3D-диагностика, современное оборудование в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/lechenie-detskogo-cariesa-i-ego-osloznenie": {
+        "file": "services--lechenie-detskogo-cariesa-i-ego-osloznenie.html",
+        "source": "services/lechenie-detskogo-cariesa-i-ego-osloznenie.html",
+        "title": "Лечение детского кариеса и его осложнений — Дом Зубов",
+        "description": "Лечение кариеса у детей и его осложнений. Деликатный подход, современные методы, безболезненное лечение в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/lechenie-kariesa": {
+        "file": "services--lechenie-kariesa.html",
+        "source": "services/lechenie-kariesa.html",
+        "title": "Лечение кариеса — Дом Зубов",
+        "description": "Профессиональное лечение кариеса в клинике Дом Зубов. Используем передовые диагностические приборы, работаем под микроскопом. Точное восстановление анатомии зуба с гарантией.",
+        "document": false,
+        "preserved": true
+    },
+    "services/lechenie-kornevyh-kanalov-pod-mikroskopom": {
+        "file": "services--lechenie-kornevyh-kanalov-pod-mikroskopom.html",
+        "source": "services/lechenie-kornevyh-kanalov-pod-mikroskopom.html",
+        "title": "Лечение корневых каналов под микроскопом — Дом Зубов",
+        "description": "Эндодонтическое лечение корневых каналов под дентальным микроскопом. Современные технологии, качественное лечение с гарантией в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/nitrous-oxide-sedation": {
+        "file": "services--nitrous-oxide-sedation.html",
+        "source": "services/nitrous-oxide-sedation.html",
+        "title": "Седация закисью азота — Дом Зубов",
+        "description": "Седация закисью азота для детей и взрослых — безопасный метод снятия страха и тревоги во время стоматологического лечения. Мягкая седация без наркоза.",
+        "document": false,
+        "preserved": true
+    },
+    "services/obuchenie-gigiene-zubov": {
+        "file": "services--obuchenie-gigiene-zubov.html",
+        "source": "services/obuchenie-gigiene-zubov.html",
+        "title": "Обучение гигиене зубов — Дом Зубов",
+        "description": "Профессиональное обучение правильной гигиене полости рта. Индивидуальный подбор средств, техника чистки зубов в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/otbelivanie-zubov": {
+        "file": "services--otbelivanie-zubov.html",
+        "source": "services/otbelivanie-zubov.html",
+        "title": "Отбеливание зубов — Дом Зубов",
+        "description": "Профессиональное медицинское отбеливание зубов в клинике Дом Зубов. Безопасные методы, естественный результат, сертифицированные системы отбеливания.",
+        "document": false,
+        "preserved": true
+    },
+    "services/palatal-expander": {
+        "file": "services--palatal-expander.html",
+        "source": "services/palatal-expander.html",
+        "title": "Нёбный расширитель — Дом Зубов",
+        "description": "Нёбный расширитель — мягкий метод расширения верхней челюсти у детей. Создаёт больше места для зубов, улучшает носовое дыхание и помогает избежать сложных операций в будущем.",
+        "document": false,
+        "preserved": true
+    },
+    "services/personal-hygiene": {
+        "file": "services--personal-hygiene.html",
+        "source": "services/personal-hygiene.html",
+        "title": "Профессиональная гигиена полости рта — Дом Зубов",
+        "description": "Профессиональная гигиена полости рта и зубов в клинике Дом Зубов. Удаление зубного камня и налета, полировка зубов, профилактика заболеваний.",
+        "document": false,
+        "preserved": true
+    },
+    "services/professionalnaya-gigiena": {
+        "file": "services--professionalnaya-gigiena.html",
+        "source": "services/professionalnaya-gigiena.html",
+        "title": "Профессиональная гигиена полости рта — Дом Зубов",
+        "description": "Профессиональная чистка зубов и комплексная гигиена полости рта. Удаление налета и камня, профилактика заболеваний в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/professionalnaya-gigiena-dlya-breketov": {
+        "file": "services--professionalnaya-gigiena-dlya-breketov.html",
+        "source": "services/professionalnaya-gigiena-dlya-breketov.html",
+        "title": "Профессиональная гигиена для брекетов — Дом Зубов",
+        "description": "Специальная гигиена и уход за зубами с брекетами. Профессиональная чистка, профилактика в период ортодонтического лечения в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/professionalnaya-gigiena-dlya-implantov": {
+        "file": "services--professionalnaya-gigiena-dlya-implantov.html",
+        "source": "services/professionalnaya-gigiena-dlya-implantov.html",
+        "title": "Профессиональная гигиена для имплантов — Дом Зубов",
+        "description": "Специальная гигиена и уход за зубными имплантами. Профессиональная чистка, профилактика осложнений в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/profilaktika-i-diagnostika-detei": {
+        "file": "services--profilaktika-i-diagnostika-detei.html",
+        "source": "services/profilaktika-i-diagnostika-detei.html",
+        "title": "Профилактика и диагностика детей — Дом Зубов",
+        "description": "Профилактика и диагностика заболеваний полости рта у детей. Регулярные осмотры, обучение гигиене в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/prosthetics": {
+        "file": "services--prosthetics.html",
+        "source": "services/prosthetics.html",
+        "title": "Протезирование зубов — Дом Зубов",
+        "description": "Протезирование зубов в клинике Дом Зубов. Керамические коронки, виниры, мостовидные и съемные протезы. Восстановление эстетики и функции зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/protezirovanie-zubov-u-lyudej-v-vozraste": {
+        "file": "services--protezirovanie-zubov-u-lyudej-v-vozraste.html",
+        "source": "services/protezirovanie-zubov-u-lyudej-v-vozraste.html",
+        "title": "Протезирование зубов у людей в возрасте — Дом Зубов",
+        "description": "Протезирование зубов для пациентов старшего возраста. Деликатный подход, комфортные решения, учет всех особенностей в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/sedation-propofol": {
+        "file": "services--sedation-propofol.html",
+        "source": "services/sedation-propofol.html",
+        "title": "Глубокая и поверхностная седация (Пропофол) — Дом Зубов",
+        "description": "Глубокая и поверхностная седация Пропофолом — безопасный метод проведения стоматологических процедур без стресса. Комфортное лечение под контролем анестезиолога.",
+        "document": false,
+        "preserved": true
+    },
+    "services/semnye-i-nesemnye-konstruktsii-na-implantah": {
+        "file": "services--semnye-i-nesemnye-konstruktsii-na-implantah.html",
+        "source": "services/semnye-i-nesemnye-konstruktsii-na-implantah.html",
+        "title": "Съемные и несъемные конструкции на имплантах — Дом Зубов",
+        "description": "Съемные и несъемные зубные протезы на имплантах. Комфорт, надежность, естественный вид. Протезирование на имплантах в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/sinus-lifting": {
+        "file": "services--sinus-lifting.html",
+        "source": "services/sinus-lifting.html",
+        "title": "Синус-лифтинг — Дом Зубов",
+        "description": "Синус-лифтинг (костная пластика верхней челюсти) для успешной имплантации. Безопасная процедура, опытные врачи в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/sohranenie-zhiznesposobnosti-pulpy": {
+        "file": "services--sohranenie-zhiznesposobnosti-pulpy.html",
+        "source": "services/sohranenie-zhiznesposobnosti-pulpy.html",
+        "title": "Сохранение жизнеспособности пульпы — Дом Зубов",
+        "description": "Биологический метод лечения пульпита с сохранением живой пульпы зуба. Современный подход к лечению зубов в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/surgical-dentistry/impacted-tooth-extraction": {
+        "file": "services--surgical-dentistry--impacted-tooth-extraction.html",
+        "source": "services/surgical-dentistry/impacted-tooth-extraction.html",
+        "title": "Удаление ретинированного зуба — Дом Зубов",
+        "description": "Удаление ретинированных (непрорезавшихся) зубов в клинике Дом Зубов. Безболезненная процедура, опытные хирурги, современное оборудование и методы лечения.",
+        "document": false,
+        "preserved": true
+    },
+    "services/surgical-dentistry/permanent-tooth-extraction": {
+        "file": "services--surgical-dentistry--permanent-tooth-extraction.html",
+        "source": "services/surgical-dentistry/permanent-tooth-extraction.html",
+        "title": "Удаление постоянного зуба — Дом Зубов",
+        "description": "Удаление постоянного зуба в клинике Дом Зубов. Безболезненная процедура, опытные хирурги, современное оборудование и бережное отношение к пациенту.",
+        "document": false,
+        "preserved": true
+    },
+    "services/surgical-dentistry/wisdom-tooth-extraction": {
+        "file": "services--surgical-dentistry--wisdom-tooth-extraction.html",
+        "source": "services/surgical-dentistry/wisdom-tooth-extraction.html",
+        "title": "Удаление зуба мудрости — Дом Зубов",
+        "description": "Безболезненное удаление зубов мудрости в клинике Дом Зубов. Опытные хирурги, современное оборудование, минимальный период восстановления.",
+        "document": false,
+        "preserved": true
+    },
+    "services/therapeutic-dentistry": {
+        "file": "services--therapeutic-dentistry.html",
+        "source": "services/therapeutic-dentistry.html",
+        "title": "Сложное перелечивание корневых каналов — Дом Зубов",
+        "description": "Комплексный подход к восстановлению здоровья зуба при осложнённых случаях. Повторное лечение, обработка корневых каналов под микроскопом для сохранения зуба.",
+        "document": false,
+        "preserved": true
+    },
+    "services/tselnokeramicheskie-koronki": {
+        "file": "services--tselnokeramicheskie-koronki.html",
+        "source": "services/tselnokeramicheskie-koronki.html",
+        "title": "Цельнокерамические коронки — Дом Зубов",
+        "description": "Цельнокерамические коронки для идеальной улыбки. Максимальная эстетика, естественность, биосовместимость в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/tsirkonievye-koronki-na-zubah-i-implantah": {
+        "file": "services--tsirkonievye-koronki-na-zubah-i-implantah.html",
+        "source": "services/tsirkonievye-koronki-na-zubah-i-implantah.html",
+        "title": "Циркониевые коронки на зубах и имплантах — Дом Зубов",
+        "description": "Циркониевые коронки высокого качества. Эстетичные, прочные, долговечные. Установка коронок на зубы и импланты в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/ustanovka-implanta": {
+        "file": "services--ustanovka-implanta.html",
+        "source": "services/ustanovka-implanta.html",
+        "title": "Установка импланта — Дом Зубов",
+        "description": "Профессиональная установка зубных имплантов. Современные технологии, качественные материалы, гарантия в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/uvelichenie-obema-kostnoj-i-myagkoj-tkani": {
+        "file": "services--uvelichenie-obema-kostnoj-i-myagkoj-tkani.html",
+        "source": "services/uvelichenie-obema-kostnoj-i-myagkoj-tkani.html",
+        "title": "Увеличение объема костной и мягкой ткани — Дом Зубов",
+        "description": "Костная и мягкотканная пластика для успешной имплантации. Восстановление объема тканей, подготовка к протезированию в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "services/zuby-za-odin-den": {
+        "file": "services--zuby-za-odin-den.html",
+        "source": "services/zuby-za-odin-den.html",
+        "title": "Зубы за один день — Дом Зубов",
+        "description": "Имплантация с немедленной нагрузкой - зубы за один день. Быстрое восстановление улыбки, современные технологии в клинике Дом Зубов.",
+        "document": false,
+        "preserved": true
+    },
+    "taganka": {
+        "file": "taganka.html",
+        "source": "taganka.html",
+        "title": "Стоматология «Дом Зубов» на Таганке — с неё всё началось — Стоматология Дом Зубов",
+        "description": "Первая из наших клиник. Именно здесь мы заложили фундамент всей философии «Дома Зубов»: лечить так, как лечили бы близкого человека.",
+        "document": false,
+        "preserved": true
+    },
+    "taganka/doctors": {
+        "file": "taganka--doctors.html",
+        "source": "taganka/doctors.html",
+        "title": "Врачи клиники Стоматология «Дом Зубов» на Таганке — с неё всё началось — Дом Зубов",
+        "description": "Специалисты клиники Стоматология «Дом Зубов» на Таганке — с неё всё началось. Опытные врачи-стоматологи: терапевты, ортодонты, хирурги, детские стоматологи. Запись на прием в клинику Дом Зубов Таганская.",
+        "document": false,
+        "preserved": true
+    },
+    "tax-deduction": {
+        "file": "tax-deduction.html",
+        "source": "tax-deduction.html",
+        "title": "Налоговый вычет за лечение зубов — Дом Зубов",
+        "description": "Как получить налоговый вычет за стоматологические услуги. Верните до 13% от стоимости лечения. Помогаем с оформлением документов и справок для налоговой.",
+        "document": false,
+        "preserved": true
+    },
+    "unsubscribe": {
+        "file": "unsubscribe.html",
+        "source": "unsubscribe.html",
+        "title": "Отписка от рассылки — Дом Зубов",
+        "description": "Спасибо, что вы с нами! Мы больше не побеспокоим вас нашей рассылкой. Но всегда будем рады видеть вас в наших клиниках.",
+        "document": false,
+        "preserved": true
+    },
+    "yuridicheskaya-informatsiya": {
+        "file": "yuridicheskaya-informatsiya.html",
+        "source": "yuridicheskaya-informatsiya.html",
+        "title": "Юридическая информация — Дом Зубов",
+        "description": "Нормативно-правовая информация стоматологических клиник Дом Зубов: договоры, лицензии, политика конфиденциальности, права пациентов и другие юридические документы.",
+        "document": false,
+        "preserved": true
+    },
+    "yuridicheskaya-informatsiya/index": {
+        "file": "yuridicheskaya-informatsiya--index.html",
+        "source": "yuridicheskaya-informatsiya/index.html",
+        "title": "Юридическая информация — Дом Зубов",
+        "description": "Нормативно-правовая информация стоматологических клиник Дом Зубов: договоры, лицензии, политика конфиденциальности, права пациентов и другие юридические документы.",
+        "document": false,
+        "preserved": true
+    },
+    "zilart": {
+        "file": "zilart.html",
+        "source": "zilart.html",
+        "title": "Стоматология «Дом Зубов» в ЗИЛАРТ — Стоматология Дом Зубов",
+        "description": "Полный спектр стоматологической помощи — от гигиены до сложных процедур — в одной клинике. Лечение во сне, деликатный подход к детям и продуманный сервис с вним...",
+        "document": false,
+        "preserved": true
+    },
+    "zilart/doctors": {
+        "file": "zilart--doctors.html",
+        "source": "zilart/doctors.html",
+        "title": "Врачи клиники Стоматология «Дом Зубов» в ЗИЛАРТ — Дом Зубов",
+        "description": "Специалисты клиники Стоматология «Дом Зубов» в ЗИЛАРТ. Опытные врачи-стоматологи: терапевты, ортодонты, хирурги, детские стоматологи. Запись на прием в клинику Дом Зубов Зиларт.",
+        "document": false,
+        "preserved": true
+    }
+}

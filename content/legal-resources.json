@@ -1,0 +1,133 @@
+{
+  "checked_at": "2026-09-17",
+  "note": "Нормативные акты и официальные справочные ресурсы. Эти документы не заменяют лицензию и утверждённые документы ООО «ДОМ ЗУБОВ».",
+  "documents": [
+    {
+      "id": "paid-services-659",
+      "title": "Правила предоставления платных медицинских услуг — № 659 от 30.05.2026",
+      "description": "Порядок информирования пациента, заключения договора, оплаты и оказания платных медицинских услуг. Действуют с 1 сентября 2026 года.",
+      "scope": "Платные медицинские услуги, включая частные медицинские организации.",
+      "url": "/assets/documents/paid-medical-services-659-2026.pdf",
+      "source_url": "http://publication.pravo.gov.ru/document/0001202606010083",
+      "local_path": "assets/documents/paid-medical-services-659-2026.pdf",
+      "format": "PDF",
+      "effective_from": "2026-09-01",
+      "effective_until": "2031-09-01",
+      "downloaded_at": "2026-09-17",
+      "download_source": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202606010083",
+      "sha256": "7af320a12723f96f934dfcd231e3971d80560adeeb385db058255fb1712497c2",
+      "bytes": 4162290,
+      "pages": 18
+    },
+    {
+      "id": "medical-website-118n",
+      "title": "Информация на сайте медицинской организации — приказ № 118н от 13.03.2025",
+      "description": "Состав информации о медицинской организации и требования к её представлению на сайте. Заменил приказ № 956н.",
+      "scope": "Сведения о деятельности медицинской организации; информация об ОМС, диспансеризации и госпитализации размещается с учётом фактической деятельности.",
+      "url": "/assets/documents/medical-website-118n-2025.pdf",
+      "source_url": "http://publication.pravo.gov.ru/document/0001202504110006",
+      "local_path": "assets/documents/medical-website-118n-2025.pdf",
+      "format": "PDF",
+      "effective_from": "2025-09-01",
+      "effective_until": "2031-03-01",
+      "downloaded_at": "2026-09-17",
+      "download_source": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202504110006",
+      "sha256": "7226c944bfbb54ec3dc4851d11fab098d3549a6d1b5c0c190e9558bce05ba9f2",
+      "bytes": 464543,
+      "pages": 8
+    },
+    {
+      "id": "health-323fz",
+      "title": "Об основах охраны здоровья граждан — Федеральный закон № 323-ФЗ",
+      "description": "Права пациента, информированное согласие, врачебная тайна и обязанности медицинских организаций.",
+      "scope": "Основные нормы охраны здоровья; в частности статьи 13, 19, 20, 22, 27, 79 и 84.",
+      "url": "http://pravo.gov.ru/proxy/ips/?docbody=&nd=102152259",
+      "source_url": "http://pravo.gov.ru/proxy/ips/?docbody=&nd=102152259",
+      "format": "HTML"
+    },
+    {
+      "id": "personal-data-152fz",
+      "title": "О персональных данных — Федеральный закон № 152-ФЗ",
+      "description": "Правовые основания обработки данных, права субъекта и обязанности оператора, включая опубликование политики обработки данных.",
+      "scope": "Обработка данных пациентов, сотрудников и посетителей сайта; применяется к фактическим процессам оператора.",
+      "url": "http://pravo.gov.ru/proxy/ips/?docbody=&nd=102108261",
+      "source_url": "http://pravo.gov.ru/proxy/ips/?docbody=&nd=102108261",
+      "format": "HTML"
+    },
+    {
+      "id": "consumer-rights",
+      "title": "О защите прав потребителей — Закон РФ № 2300-1",
+      "description": "Информация об исполнителе, качество услуг, обращения и требования потребителя.",
+      "scope": "Отношения с потребителями платных услуг.",
+      "url": "http://pravo.gov.ru/proxy/ips/?docbody=&nd=102014512",
+      "source_url": "http://pravo.gov.ru/proxy/ips/?docbody=&nd=102014512",
+      "format": "HTML"
+    },
+    {
+      "id": "medicines-3867r",
+      "title": "Перечни лекарственных препаратов — распоряжение № 3867-р от 18.12.2025",
+      "description": "Перечень ЖНВЛП, перечень препаратов для отдельных заболеваний и минимальный ассортимент. Оригинал официального опубликования, 196 страниц.",
+      "scope": "Справочная информация о лекарственном обеспечении. Не означает, что клиника выдаёт льготные препараты или участвует в соответствующих программах.",
+      "url": "/assets/documents/medicines-3867r-2025.pdf",
+      "source_url": "http://publication.pravo.gov.ru/document/0001202512240041",
+      "local_path": "assets/documents/medicines-3867r-2025.pdf",
+      "format": "PDF",
+      "effective_from": "2026-02-24",
+      "downloaded_at": "2026-09-17",
+      "download_source": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202512240041",
+      "sha256": "c75faf180793ef4cc0b562a2ee8963d414fb90ac3b543c62542d2ed31c58a81b",
+      "bytes": 24559455,
+      "pages": 196
+    },
+    {
+      "id": "separate-consent-156fz",
+      "title": "Отдельное согласие на обработку данных — статья 5 Федерального закона № 156-ФЗ от 24.06.2025",
+      "description": "Изменение статьи 9 Закона о персональных данных: согласие оформляется отдельно от иных подтверждаемых документов и информации.",
+      "scope": "Статья 5 действует с 1 сентября 2025 года. Файл является законом, а не формой согласия пациента.",
+      "url": "/assets/documents/personal-data-amendment-156fz-2025.pdf",
+      "source_url": "http://publication.pravo.gov.ru/document/0001202506240021",
+      "local_path": "assets/documents/personal-data-amendment-156fz-2025.pdf",
+      "format": "PDF",
+      "effective_from": "2025-09-01",
+      "downloaded_at": "2026-09-17",
+      "download_source": "http://publication.pravo.gov.ru/file/pdf?eoNumber=0001202506240021",
+      "sha256": "3a48b470fb35647eaf00c1ab000fce2a1274ac9db0151afbf1775b35bc8dc485",
+      "bytes": 753875,
+      "pages": 14
+    },
+    {
+      "id": "state-guarantees-2026",
+      "title": "Программа государственных гарантий на 2026–2028 годы — № 2188 от 29.12.2025",
+      "description": "Федеральная программа бесплатного оказания медицинской помощи. Текст и сведения о редакции на сайте Правительства России.",
+      "scope": "Информирование о возможности бесплатной помощи; не подтверждает участие ООО «ДОМ ЗУБОВ» в программе.",
+      "url": "http://government.ru/docs/all/163114/",
+      "source_url": "http://government.ru/docs/all/163114/",
+      "format": "HTML"
+    }
+  ],
+  "services": [
+    {"id":"clinical-guidelines","title":"Клинические рекомендации Минздрава России","description":"Официальный рубрикатор клинических рекомендаций.","url":"https://cr.minzdrav.gov.ru/"},
+    {"id":"legal-portal","title":"Официальный интернет-портал правовой информации","description":"Официальные тексты нормативных актов, в том числе стандартов медицинской помощи.","url":"http://pravo.gov.ru/"},
+    {"id":"license-registry","title":"Единый реестр лицензий Росздравнадзора","description":"Поиск по ИНН, ОГРН или регистрационному номеру лицензии.","url":"https://roszdravnadzor.gov.ru/services/licenses"},
+    {"id":"free-care-moscow","title":"Медицинские организации Москвы в системе ОМС","description":"Официальный справочник МГФОМС для поиска бесплатной медицинской помощи.","url":"https://www.mgfoms.ru/spravochniki/med-org/"},
+    {"id":"moscow-normative-base","title":"Нормативная база МГФОМС","description":"Документы о системе ОМС и территориальной программе Москвы. Для 2026 года — постановление Москвы № 3389-ПП от 30.12.2025 с изменениями.","url":"https://www.mgfoms.ru/documents/basa/"},
+    {"id":"egrul","title":"Сведения из ЕГРЮЛ / ЕГРИП ФНС России","description":"Получение сведений о юридическом лице по ИНН или ОГРН.","url":"https://egrul.nalog.ru/"}
+  ],
+  "authorities": [
+    {"title":"Департамент здравоохранения города Москвы","url":"https://www.mos.ru/dzdrav/","address":"127006, Москва, Оружейный переулок, д. 43, стр. 1","phone":"+7 (495) 777-77-77","phone_note":"Единая справочная служба города Москвы","source_url":"https://sklif.mos.ru/control/"},
+    {"title":"Территориальный орган Росздравнадзора по Москве и Московской области","url":"https://77reg.roszdravnadzor.ru/","address":"127206, Москва, ул. Вучетича, д. 12А","phone":"+7 (495) 611-47-74","source_url":"https://sklif.mos.ru/control/"},
+    {"title":"Управление Роспотребнадзора по городу Москве","url":"https://77.rospotrebnadzor.ru/index.php/upravlenie/contacts","address":"129626, Москва, Графский переулок, д. 4, корп. 2, 3, 4","phone":"+7 (495) 539-36-96","phone_note":"Горячая линия","source_url":"https://77.rospotrebnadzor.ru/index.php/upravlenie/contacts"},
+    {"title":"Московский городской фонд обязательного медицинского страхования","url":"https://www.mgfoms.ru/feedback/contacts/","phone":"8 (800) 250-11-41","phone_note":"Контакт-центр по вопросам ОМС","source_url":"https://www.mgfoms.ru/feedback/contacts/"}
+  ],
+  "license_verification": {
+    "checked_at": "2026-09-17",
+    "status": "unverified",
+    "company": "ООО «ДОМ ЗУБОВ»",
+    "inn": "9727136018",
+    "ogrn": "1267700299283",
+    "addresses_to_match": ["Москва, Чертановская ул., 9, стр. 3, этаж 2", "Москва, Гончарная ул., 12, стр. 6"],
+    "registry_url": "https://roszdravnadzor.gov.ru/services/licenses",
+    "extract_request_url": "https://www.gosuslugi.ru/600309/1/form",
+    "note": "Выписка по ООО «ДОМ ЗУБОВ» не получена. Поиск требует проверку «Я не робот»; автоматический запрос по ИНН вернул data:[] без итоговых счётчиков. Это не доказывает отсутствие лицензии. Перед публикацией сведений нужна выписка с совпадающими ИНН, адресами и видами работ. Лицензии других организаций не подходят."
+  }
+}

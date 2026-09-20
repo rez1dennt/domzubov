@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Согласие на обработку персональных данных (взрослые)",
+    "documents": [
+      {
+        "name": "ООО «Белая Радуга»",
+        "url": "/assets/documents/document-1.pdf"
+      },
+      {
+        "name": "ООО «Белая Радуга-1»",
+        "url": "/assets/documents/document-2.pdf"
+      },
+      {
+        "name": "ООО «Белая Радуга Центр»",
+        "url": "/assets/documents/document-3.pdf"
+      }
+    ]
+  },
+  {
+    "title": "Согласие на обработку персональных данных (дети)",
+    "documents": [
+      {
+        "name": "ООО «Белая Радуга»",
+        "url": "/assets/documents/document-4.pdf"
+      },
+      {
+        "name": "ООО «Белая Радуга-1»",
+        "url": "/assets/documents/document-5.pdf"
+      },
+      {
+        "name": "ООО «Белая Радуга Центр»",
+        "url": "/assets/documents/document-6.pdf"
+      }
+    ]
+  },
+  {
+    "title": "Договор возмездного оказания стоматологических услуг (взрослые)",
+    "documents": [
+      {
+        "name": "ООО «Белая Радуга»",
+        "url": "/assets/documents/document-7.pdf"
+      },
+      {
+        "name": "ООО «Белая Радуга-1»",
+        "url": "/assets/documents/document-8.pdf"
+      },
+      {
+        "name": "ООО «Белая Радуга Центр»",
+        "url": "/assets/documents/document-9.pdf"
+      }
+    ]
+  },
+  {
+    "title": "Договор возмездного оказания стоматологических услуг (дети, недееспособные)",
+    "documents": [
+      {
+        "name": "ООО «Белая Радуга»",
+        "url": "/assets/documents/document-10.pdf"
+      },
+      {
+        "name": "ООО «Белая Радуга-1»",
+        "url": "/assets/documents/document-11.pdf"
+      },
+      {
+        "name": "ООО «Белая Радуга Центр»",
+        "url": "/assets/documents/document-12.pdf"
+      }
+    ]
+  }
+]
