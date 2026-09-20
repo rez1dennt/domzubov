@@ -15,6 +15,7 @@
 !/docs/
 /assets/restored/
 /assets/icons/
+/assets/documents/document-*.pdf
 /assets/*.png
 /assets/hero-dom-zubov*.webp
 /content/pages/*
