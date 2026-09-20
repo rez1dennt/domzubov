@@ -17,6 +17,8 @@ $patientIcons=['wallet','calendar','document','shield','gift','gift','pin'];
 <link rel="stylesheet" href="/assets/accessibility.css?v=<?= asset_version('/assets/accessibility.css') ?>">
 <?php if(!$restored && $route!=='reviews'): ?><link rel="stylesheet" href="/assets/editorial.css?v=<?= asset_version('/assets/editorial.css') ?>"><?php endif; ?>
 <link rel="stylesheet" href="/assets/restoration.css?v=<?= asset_version('/assets/restoration.css') ?>">
+<script src="/assets/embla-carousel.js?v=<?= asset_version('/assets/embla-carousel.js') ?>" defer></script>
+<script src="/assets/carousel.js?v=<?= asset_version('/assets/carousel.js') ?>" defer></script>
 <script src="/assets/form-guard.js?v=<?= asset_version('/assets/form-guard.js') ?>" defer></script>
 <script src="/assets/restored.js?v=<?= asset_version('/assets/restored.js') ?>" defer></script>
 <script src="/assets/site.js?v=<?= asset_version('/assets/site.js') ?>" defer></script>
@@ -29,6 +31,7 @@ $patientIcons=['wallet','calendar','document','shield','gift','gift','pin'];
 <link rel="stylesheet" href="/assets/polish.css?v=<?= asset_version('/assets/polish.css') ?>">
 <link rel="stylesheet" href="/assets/doctor-profiles.css?v=<?= asset_version('/assets/doctor-profiles.css') ?>">
 <link rel="stylesheet" href="/assets/content-polish.css?v=<?= asset_version('/assets/content-polish.css') ?>">
+<link rel="stylesheet" href="/assets/carousel.css?v=<?= asset_version('/assets/carousel.css') ?>">
 <?php if($doctor): ?><script src="/assets/doctor-profiles.js?v=<?= asset_version('/assets/doctor-profiles.js') ?>" defer></script><?php endif; ?>
 <?php if(in_array($route,['yuridicheskaya-informatsiya','sitemap'],true)): ?><link rel="stylesheet" href="/assets/legal.css?v=<?= asset_version('/assets/legal.css') ?>"><?php endif; ?>
 <script src="/assets/search.js?v=<?= asset_version('/assets/search.js') ?>" defer></script>

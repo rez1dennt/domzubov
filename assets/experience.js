@@ -3,32 +3,6 @@
 
   const SELECTOR = '.dz-select';
   const closeTimers = new WeakMap();
-  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const cardAnimations = new WeakMap();
-
-  function animateCardChange(cards, previousRects, direction) {
-    if (reduceMotion.matches || !Element.prototype.animate) return;
-    cards.forEach((card) => {
-      cardAnimations.get(card)?.cancel();
-      cardAnimations.delete(card);
-    });
-    const visible = cards.filter((card) => !card.hidden);
-    const referenceWidth = visible[0]?.getBoundingClientRect().width || 0;
-    visible.forEach((card) => {
-      const nextRect = card.getBoundingClientRect();
-      const previousRect = previousRects.get(card);
-      const offsetX = previousRect ? previousRect.left - nextRect.left : direction * referenceWidth;
-      const offsetY = previousRect ? previousRect.top - nextRect.top : 0;
-      const animation = card.animate([
-        { transform: `translate(${offsetX}px, ${offsetY}px)`, opacity: previousRect ? 1 : 0.2 },
-        { transform: 'translate(0, 0)', opacity: 1 },
-      ], { duration: 300, easing: 'cubic-bezier(.22,.61,.36,1)' });
-      cardAnimations.set(card, animation);
-      const clear = () => { if (cardAnimations.get(card) === animation) cardAnimations.delete(card); };
-      animation.addEventListener('finish', clear, { once: true });
-      animation.addEventListener('cancel', clear, { once: true });
-    });
-  }
 
   function parts(select) {
     return {
@@ -118,65 +92,8 @@
   }
 
   function initCarousel(root) {
-    const cards = Array.from(root.querySelectorAll('[data-review-card]'));
-    const previous = root.querySelector('[data-review-prev]');
-    const next = root.querySelector('[data-review-next]');
-    const status = root.querySelector('[data-review-status]');
-    if (!cards.length) return;
-
-    let start = 0;
-    let perPage = window.matchMedia('(min-width: 768px)').matches ? Number(root.dataset.reviewPageSize || 4) : 1;
-
-    const render = () => {
-      const count = Math.min(perPage, cards.length);
-      start = cards.length <= perPage ? 0 : (start + cards.length) % cards.length;
-      const ordered = cards.slice(start).concat(cards.slice(0, start));
-      const container = cards[0].parentElement;
-      const focused = container.contains(document.activeElement) ? document.activeElement : null;
-      container.append(...ordered);
-      ordered.forEach((card, index) => {
-        card.hidden = index >= count;
-      });
-      if (focused) {
-        const owner = cards.find(card => card.contains(focused));
-        if (owner && !owner.hidden) focused.focus({ preventScroll: true });
-        else (next || previous)?.focus({ preventScroll: true });
-      }
-      if (previous) previous.disabled = cards.length <= perPage;
-      if (next) next.disabled = cards.length <= perPage;
-      if (status) {
-        const end = ((start + count - 1) % cards.length) + 1;
-        status.textContent = `${start + 1}–${end} из ${cards.length}`;
-        status.setAttribute('aria-live', 'polite');
-      }
-    };
-
-    const advance = (direction) => {
-      const maximum = Math.max(0, cards.length - perPage);
-      if (!maximum) return;
-      const previousRects = new Map(cards.filter((card) => !card.hidden).map((card) => [card, card.getBoundingClientRect()]));
-      start = (start + direction + cards.length) % cards.length;
-      render();
-      animateCardChange(cards, previousRects, direction);
-    };
-
-    previous?.addEventListener('click', () => advance(-1));
-    next?.addEventListener('click', () => advance(1));
-
-    let resizeFrame = 0;
-    window.addEventListener('resize', () => {
-      cancelAnimationFrame(resizeFrame);
-      resizeFrame = requestAnimationFrame(() => {
-        const updated = window.matchMedia('(min-width: 768px)').matches ? Number(root.dataset.reviewPageSize || 4) : 1;
-        if (updated !== perPage) {
-          perPage = updated;
-          start %= cards.length;
-          render();
-        }
-      });
-    }, { passive: true });
-
-    render();
+    const first = root.querySelector('[data-review-card]');
+    window.DZCarousel.mount({ root, kind: 'review', track: first?.parentElement, previous: root.querySelector('[data-review-prev]'), next: root.querySelector('[data-review-next]') });
   }
 
   document.addEventListener('click', (event) => {
