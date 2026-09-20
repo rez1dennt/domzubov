@@ -128,13 +128,24 @@
     let perPage = window.matchMedia('(min-width: 768px)').matches ? Number(root.dataset.reviewPageSize || 4) : 1;
 
     const render = () => {
-      const maximum = Math.max(0, cards.length - perPage);
-      start = Math.min(start, maximum);
-      cards.forEach((card, index) => {
-        card.hidden = index < start || index >= start + perPage;
+      const count = Math.min(perPage, cards.length);
+      start = cards.length <= perPage ? 0 : (start + cards.length) % cards.length;
+      const ordered = cards.slice(start).concat(cards.slice(0, start));
+      const container = cards[0].parentElement;
+      const focused = container.contains(document.activeElement) ? document.activeElement : null;
+      container.append(...ordered);
+      ordered.forEach((card, index) => {
+        card.hidden = index >= count;
       });
+      if (focused) {
+        const owner = cards.find(card => card.contains(focused));
+        if (owner && !owner.hidden) focused.focus({ preventScroll: true });
+        else (next || previous)?.focus({ preventScroll: true });
+      }
+      if (previous) previous.disabled = cards.length <= perPage;
+      if (next) next.disabled = cards.length <= perPage;
       if (status) {
-        const end = Math.min(cards.length, start + perPage);
+        const end = ((start + count - 1) % cards.length) + 1;
         status.textContent = `${start + 1}–${end} из ${cards.length}`;
         status.setAttribute('aria-live', 'polite');
       }
@@ -144,9 +155,7 @@
       const maximum = Math.max(0, cards.length - perPage);
       if (!maximum) return;
       const previousRects = new Map(cards.filter((card) => !card.hidden).map((card) => [card, card.getBoundingClientRect()]));
-      start += direction;
-      if (start > maximum) start = 0;
-      if (start < 0) start = maximum;
+      start = (start + direction + cards.length) % cards.length;
       render();
       animateCardChange(cards, previousRects, direction);
     };
@@ -161,7 +170,7 @@
         const updated = window.matchMedia('(min-width: 768px)').matches ? Number(root.dataset.reviewPageSize || 4) : 1;
         if (updated !== perPage) {
           perPage = updated;
-          start = Math.min(start, Math.max(0, cards.length - perPage));
+          start %= cards.length;
           render();
         }
       });
