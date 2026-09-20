@@ -24,14 +24,22 @@ function dz_security_boot(): void {
     }
     if(strlen($_SERVER['REQUEST_URI']??'')>4096)dz_security_error(414,'Слишком длинный адрес запроса.');
     $configFile=__DIR__.'/site-config.php';if(is_file($configFile))require_once $configFile;
-    $base=function_exists('dz_site_config')?dz_site_config()['base_url']:'http://127.0.0.1:8174';
-    $url=parse_url($base);$host=strtolower($url['host']??'127.0.0.1');$port=isset($url['port'])?':'.$url['port']:'';
-    $allowed=[$host.$port];if(in_array($host,['localhost','127.0.0.1','[::1]'],true))$allowed=array_merge($allowed,['localhost'.$port,'127.0.0.1'.$port,'[::1]'.$port]);
+    $allowed=dz_allowed_hosts();
     if(!in_array(strtolower($_SERVER['HTTP_HOST']??''),$allowed,true))dz_security_error(421,'Адрес сайта не настроен.');
     set_exception_handler(static function(Throwable $error):void{
         error_log('Dom Zubov application failure: '.get_class($error));
         dz_security_error(500,'Не удалось обработать запрос. Повторите позже или свяжитесь с клиникой.');
     });
+}
+
+/** Vercel overwrites x-real-ip at its edge; other hosts use the actual connection. */
+function dz_client_address(): string {
+    $remote=(string)($_SERVER['REMOTE_ADDR']??'unknown');
+    if (getenv('VERCEL')==='1') {
+        $platformIp=$_SERVER['HTTP_X_REAL_IP']??'';
+        if (is_string($platformIp) && filter_var($platformIp,FILTER_VALIDATE_IP)!==false) return $platformIp;
+    }
+    return $remote;
 }
 
 /** Fixed-size, expiring counters; no raw IPs, queries or patient details are stored. */
@@ -46,7 +54,7 @@ function dz_rate_limit(string $bucket,int $limit,int $window,?int $now=null,?str
         $secret=stream_get_contents($secretHandle,128);
         if(strlen($secret)!==64){$secret=bin2hex(random_bytes(32));rewind($secretHandle);ftruncate($secretHandle,0);if(fwrite($secretHandle,$secret)!==64)throw new RuntimeException('Rate limit key write failed');fflush($secretHandle);}
     }finally{flock($secretHandle,LOCK_UN);fclose($secretHandle);}
-    $identity??=$_SERVER['REMOTE_ADDR']??'unknown'; // Deliberately ignore untrusted forwarded headers.
+    $identity??=dz_client_address();
     $key=hash_hmac('sha256',$bucket.'|'.$identity,$secret);
     $handle=@fopen($directory.'/limits.json','c+b');if(!$handle)throw new RuntimeException('Rate limit storage unavailable');
     try{

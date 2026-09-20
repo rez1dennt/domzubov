@@ -13,6 +13,10 @@
 !/templates/
 !/tests/
 !/docs/
+!/api/
+!/package.json
+!/vercel.json
+!/.vercelignore
 /assets/restored/
 /assets/icons/
 /assets/documents/document-*.pdf
@@ -35,6 +39,7 @@
 /docs/*
 !/docs/security.md
 !/docs/seo-launch.md
+!/docs/vercel.md
 **/.env
 **/.env.*
 **/*.log

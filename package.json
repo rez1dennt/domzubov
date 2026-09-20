@@ -1,0 +1,5 @@
+{
+  "name": "domzubov",
+  "private": true,
+  "engines": { "node": "22.x" }
+}
