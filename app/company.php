@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
 const BOOKING_URL='https://idotvip.ru/domzubov';
-const COMPANY_PHONE='+7 (928) 699-67-84';
-const COMPANY_TEL='+79286996784';
+const COMPANY_PHONE='+7 (985) 307-88-05';
+const COMPANY_TEL='+79853078805';
 const COMPANY_EMAIL='Domzubov777@yandex.ru';
 const COMPANY_HOURS='09:00–21:00';
 const COMPANY_INSURANCE_NOTICE='Приём по ДМС и ОМС не ведётся. Лечение предоставляется на платной основе.';

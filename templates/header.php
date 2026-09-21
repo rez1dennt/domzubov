@@ -40,7 +40,7 @@ $patientIcons=['wallet','calendar','document','shield','gift','gift','pin'];
 </head><body>
 <a class="dz-skip" href="#main">Перейти к содержимому</a>
 <header class="dz-header">
-  <div class="dz-topbar"><div class="dz-shell"><span class="dz-header-caption">Стоматология для взрослых</span><button class="dz-a11y" type="button" data-accessibility aria-haspopup="dialog" aria-controls="accessibility-settings"><?= icon('eye') ?><span>Версия для слабовидящих</span></button><a class="dz-topphone" href="tel:+79286996784">+7 (928) 699-67-84</a></div></div>
+  <div class="dz-topbar"><div class="dz-shell"><span class="dz-header-caption">Стоматология для взрослых</span><button class="dz-a11y" type="button" data-accessibility aria-haspopup="dialog" aria-controls="accessibility-settings"><?= icon('eye') ?><span>Версия для слабовидящих</span></button><a class="dz-topphone" href="tel:<?= e(COMPANY_TEL) ?>"><?= e(COMPANY_PHONE) ?></a></div></div>
   <div class="dz-header-main dz-shell">
     <a class="dz-home-link" href="/" aria-label="Дом Зубов — на главную"><?= brand_markup() ?></a>
     <nav class="dz-desktop-nav" aria-label="Основная навигация">
@@ -89,6 +89,6 @@ $patientIcons=['wallet','calendar','document','shield','gift','gift','pin'];
     <a href="/contacts">Контакты <?= icon('arrow') ?></a>
   </nav>
   <button class="dz-mobile-accessibility" type="button" data-accessibility><?= icon('eye') ?> Версия для слабовидящих</button>
-  <a class="dz-menu-phone" href="tel:+79286996784">+7 (928) 699-67-84</a>
+  <a class="dz-menu-phone" href="tel:<?= e(COMPANY_TEL) ?>"><?= e(COMPANY_PHONE) ?></a>
   <?= booking_button() ?>
 </dialog>

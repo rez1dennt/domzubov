@@ -44,6 +44,10 @@ function dz_home_set_text_preserve(?Dom\Element $element, string $text): void
 
 function rewrite_home_copy(Dom\HTMLDocument $doc, Dom\Element $container): void
 {
+    $clinic = $container->querySelector('[data-section="3"]');
+    if ($clinic !== null) {
+        dz_home_set_text($clinic->querySelector('[class*="text-p36"]'), 'Наша клиника');
+    }
     // Hero: retain the original multi-span heading and both action buttons.
     $hero = $container->querySelector('.a11y-hero-wrapper');
     if ($hero !== null) {

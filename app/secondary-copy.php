@@ -119,7 +119,7 @@ function rewrite_secondary_copy(Dom\HTMLDocument $doc, Dom\Element $root, string
                     'В клинике представлены основные направления стоматологии для взрослых.',
                     'Онлайн-запись доступна на сайте: можно выбрать подходящее время без звонка.',
                     'До начала процедур врач объясняет этапы и обсуждает план лечения с пациентом.',
-                    'Единый телефон для записи и вопросов: +7 (928) 699-67-84.'
+                    'Телефон клиники для записи и вопросов: '.COMPANY_PHONE.'.'
                 ];
                 $factNodes = iterator_to_array($factsSection->querySelectorAll('.md\:text-p18.text-p16, .text-p16:not(.md\:text-p18)'));
                 foreach ($factNodes as $index => $node) {
