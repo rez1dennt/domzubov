@@ -33,7 +33,7 @@ try {
     putenv('DZ_SITE_URL=https://clinic-seo-check.ru');
     seo_check(dz_site_config()['allow_indexing'], 'Explicit public origin plus opt-in permits indexing');
     $routes = dz_seo_routes();
-    seo_check(count($routes) === 60 && count(editorial_services()) === 40, '60 current canonical pages, including 40 services');
+    seo_check(count($routes) === 54 && count(editorial_services()) === 34, '54 current canonical pages, including 34 adult services');
     $titles = $descriptions = $canonicals = [];
     foreach ($routes as $route) {
         $seo = dz_seo_prepare($route);

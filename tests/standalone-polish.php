@@ -19,7 +19,7 @@ foreach($home->querySelectorAll('button[data-team-prev],button[data-team-next]')
 }
 $known=array_column(doctor_data()['doctors'],'url');
 $expected=['services/lechenie-kariesa'=>'murtazalieva-maret-akhmedovna','services/ustanovka-implanta'=>'badunts-karen-valerievich','services/keramicheskie-viniry'=>'rasulov-magomed-radzhabovich','services/ispravlenie-prikusa'=>'rasulova-yana-borisovna'];
-foreach(routes() as $route=>$meta){
+foreach(editorial_services() as $route=>$meta){
  if(!str_starts_with($route,'services/'))continue;
  $doc=$render($route);
  foreach($doc->querySelectorAll('div,h2,h3') as $heading){

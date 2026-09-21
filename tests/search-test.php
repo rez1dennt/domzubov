@@ -19,7 +19,7 @@ function search_test_top(string $query): array
 }
 
 $services = array_filter(dz_search_index(), static fn(array $item): bool => $item['type'] === 'Услуга');
-search_test_assert(count($services) === 40, 'index contains exactly 40 current services');
+search_test_assert(count($services) === 34, 'index contains exactly 34 current adult services');
 
 $pain = dz_search('болит зуб', 8);
 search_test_assert(
@@ -27,12 +27,9 @@ search_test_assert(
     'natural tooth-pain query finds treatment'
 );
 
-$child = dz_search('стоматолог для ребенка', 8);
-search_test_assert(str_contains($child[0]['url'] ?? '', 'services/'), 'child query returns a service');
-search_test_assert(
-    count(array_filter($child, static fn(array $item): bool => preg_match('/dete|child|adaptation/u', $item['url']) === 1)) > 0,
-    'child query finds paediatric services'
-);
+foreach (['стоматолог для ребенка', 'стоматолог для ребёнка', 'детский стоматолог', 'лечение подростков', 'молочные зубы'] as $query) {
+    search_test_assert(dz_search($query, 8) === [], 'unavailable pediatric care is not offered for '.$query);
+}
 
 $braces = search_test_top('кривые зубы');
 search_test_assert(

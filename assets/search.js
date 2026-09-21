@@ -10,9 +10,11 @@
   const key='dz-search-history',limit=6;
   let timer,closeTimer,controller,active=-1,opener,opened=false,sequence=0;
   const motion=()=>matchMedia('(prefers-reduced-motion: reduce)').matches?0:220;
-  const readHistory=()=>{try{const value=JSON.parse(sessionStorage.getItem(key)||'[]');return Array.isArray(value)?value.filter(x=>typeof x==='string'&&x.length<=200).slice(0,limit):[];}catch{return [];}};
+  const pediatricQuery=value=>/(?:^|[^\p{L}])(?:детск|детей|детям|дети|ребен|подрост|малыш|молочн)/u.test(value.toLocaleLowerCase('ru').replaceAll('ё','е'));
+  const readHistory=()=>{try{const value=JSON.parse(sessionStorage.getItem(key)||'[]');return Array.isArray(value)?value.filter(x=>typeof x==='string'&&x.length<=200&&!pediatricQuery(x)).slice(0,limit):[];}catch{return [];}};
   const saveHistory=values=>{try{sessionStorage.setItem(key,JSON.stringify(values));}catch{}};
-  const remember=()=>{const q=input.value.trim();if(q)saveHistory([q,...readHistory().filter(x=>x.toLocaleLowerCase('ru')!==q.toLocaleLowerCase('ru'))].slice(0,limit));};
+  const remember=()=>{const q=input.value.trim();if(q&&!pediatricQuery(q))saveHistory([q,...readHistory().filter(x=>x.toLocaleLowerCase('ru')!==q.toLocaleLowerCase('ru'))].slice(0,limit));};
+  saveHistory(readHistory());
   const clearActive=()=>{active=-1;input.removeAttribute('aria-activedescendant');widget.querySelectorAll('[data-search-option]').forEach(x=>{x.removeAttribute('data-active');if(x.matches('[role=option]'))x.setAttribute('aria-selected','false');});};
   const choices=()=>[...widget.querySelectorAll('[data-search-option]')].filter(e=>e.getClientRects().length);
   const scrollChoice=node=>{const scroller=widget.querySelector('.dz-search-scroll'),r=node.getBoundingClientRect(),box=scroller.getBoundingClientRect();if(r.bottom>box.bottom)scroller.scrollTop+=r.bottom-box.bottom;if(r.top<box.top)scroller.scrollTop-=box.top-r.top;};

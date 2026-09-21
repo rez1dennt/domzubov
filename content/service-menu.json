@@ -68,35 +68,6 @@
       ]
     },
     {
-      "name": "Лечение детей",
-      "items": [
-        {
-          "name": "Детская стоматология",
-          "link": "/services/adaptation-visit-for-children"
-        },
-        {
-          "name": "Адаптационный визит к врачу-стоматологу",
-          "link": "/services/adaptation-visit-for-children"
-        },
-        {
-          "name": "Лечение кариеса молочных зубов и его осложнений",
-          "link": "/services/lechenie-detskogo-cariesa-i-ego-osloznenie"
-        },
-        {
-          "name": "Профилактика и диагностика кариеса молочных и постоянных зубов у детей",
-          "link": "/services/profilaktika-i-diagnostika-detei"
-        },
-        {
-          "name": "Герметизация фиссур у детей",
-          "link": "/services/germetizacia-fisur-y-detei"
-        },
-        {
-          "name": "Исправление прикуса у детей",
-          "link": "/services/bite-correction"
-        }
-      ]
-    },
-    {
       "name": "Исправление прикуса",
       "items": [
         {
@@ -110,10 +81,6 @@
         {
           "name": "Исправление прикуса с помощью элайнеров",
           "link": "/services/ispravlenie-prikusa-with-aligners"
-        },
-        {
-          "name": "Небный расширитель",
-          "link": "/services/palatal-expander"
         }
       ]
     },

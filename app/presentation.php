@@ -29,8 +29,8 @@ function dz_asset(string $original,string $route,int $index=0):string {
  }
  if(preg_match('~section2|dms|care|dars~i',$original))return '/assets/images/consult-woman.webp';
  if(preg_match('~2Ft[1-6]~',$original))return ['/assets/images/technology.webp','/assets/images/treatment-room.webp','/assets/images/implant.webp'][$index%3];
- if(preg_match('~2Fp[1-9]~',$original))return ['/assets/images/care-portrait.webp','/assets/images/child-visit.webp','/assets/images/consult-woman.webp'][$index%3];
- if(preg_match('~2F([1-8])\.jpg~',$original,$match))return '/assets/images/'.['consult-adult','consult-woman','consultation','child-visit','care-portrait','treatment-room','lounge','reception'][(int)$match[1]-1].'.webp';
+ if(preg_match('~2Fp[1-9]~',$original))return ['/assets/images/care-portrait.webp','/assets/images/consult-adult.webp','/assets/images/consult-woman.webp'][$index%3];
+ if(preg_match('~2F([1-8])\.jpg~',$original,$match))return '/assets/images/'.['consult-adult','consult-woman','consultation','consult-adult','care-portrait','treatment-room','lounge','reception'][(int)$match[1]-1].'.webp';
  if(preg_match('~implant|sinus|kost~i',$route))return '/assets/images/'.['implant','consult-adult','technology','treatment-room'][$index%4].'.webp';
  if(preg_match('~prikus|breket|aligner|vinir~i',$route))return '/assets/images/'.['orthodontics','consult-woman','prevention','consultation'][$index%4].'.webp';
  if(preg_match('~dete|child|detsk~i',$route))return '/assets/images/'.['child-visit','child-play-v2','child-care-v2','consultation'][$index%4].'.webp';
@@ -62,6 +62,7 @@ function render_original(string $route):void {
   }
  }
  if(str_starts_with($route,'services/'))rewrite_service_copy($doc,$root,$route);
+ dz_adult_care_layout($doc,$root,$route);
  $names=[];$oldDoctors=json_decode(file_get_contents(PROJECT_ROOT.'/content/doctors.json'),true)['doctors']??[];foreach($oldDoctors as $doctor)$names[$doctor['name']]='Специалист Дома Зубов';
  $names+=['Артем Газаров'=>'Команда Дома Зубов','Артём Газаров'=>'Команда Дома Зубов','основатель клиник «Дом Зубов»'=>'стоматология «Дом Зубов»','reception@belayaraduga.ru'=>COMPANY_EMAIL,'info@belayaraduga.ru'=>COMPANY_EMAIL];dz_replace_text($root,$names);
  foreach($root->querySelectorAll('[class*="italic"]') as $attribution){if(preg_match('/врач|стоматолог|ортодонт|Габеева/ui',$attribution->textContent))$attribution->textContent='Команда «Дом Зубов»';}

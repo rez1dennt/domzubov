@@ -23,7 +23,7 @@ function dz_search_dropdown_template(): string
             </section>
             <section id="site-search-popular-list" class="dz-search-popular" role="listbox" aria-label="Часто ищут" data-search-popular>
               <p class="dz-search-group-title">Часто ищут</p>
-              <?php foreach(['Болит зуб','Детский стоматолог','Брекеты','Чистка зубов','Имплантация','Адреса клиник','Стоимость лечения'] as $query): ?>
+              <?php foreach(['Болит зуб','Брекеты','Чистка зубов','Имплантация','Адреса клиник','Стоимость лечения'] as $query): ?>
                 <button class="dz-search-suggestion" type="button" role="option" aria-selected="false" data-search-query="<?= e($query) ?>"><?= icon('search') ?><span><?= e($query) ?></span><?= icon('arrow') ?></button>
               <?php endforeach; ?>
             </section>
@@ -60,7 +60,6 @@ function dz_search_page_template(string $query, array $results): string
             <h2 id="search-popular-title">Популярные запросы</h2>
             <div class="dz-search-chips">
               <a href="/search?q=<?= rawurlencode('болит зуб') ?>">Болит зуб</a>
-              <a href="/search?q=<?= rawurlencode('детский стоматолог') ?>">Детский стоматолог</a>
               <a href="/search?q=<?= rawurlencode('брекеты') ?>">Брекеты</a>
               <a href="/search?q=<?= rawurlencode('цены') ?>">Цены</a>
             </div>

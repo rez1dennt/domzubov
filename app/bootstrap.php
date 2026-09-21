@@ -6,6 +6,7 @@ require_once __DIR__.'/brand.php';
 require_once __DIR__.'/icons.php';
 require_once __DIR__.'/company.php';
 require_once __DIR__.'/doctors-data.php';
+require_once __DIR__.'/adult-care.php';
 function routes(): array {
     static $routes;
     return $routes ??= json_decode(file_get_contents(PROJECT_ROOT . '/content/routes.json'), true, 512, JSON_THROW_ON_ERROR);
@@ -16,8 +17,10 @@ function resolve_route(string $uri): ?string {
     $key = trim($path, '/');
     if (str_ends_with($key, '.html') || str_ends_with($key, '.php')) $key = substr($key, 0, strrpos($key, '.'));
     if ($key === '') $key = 'index';
+    if (dz_route_unpublished($key)) return null;
     $aliases = require __DIR__ . '/redirects.php';
     $key = $aliases[$key] ?? $key;
+    if (dz_route_unpublished($key)) return null;
     if(doctor_profile($key)!==null)return $key;
     if(in_array($key,['sitemap','privacy-policy','chertanovskaya','search'],true))return $key;
     if (isset(routes()[$key])) return $key;

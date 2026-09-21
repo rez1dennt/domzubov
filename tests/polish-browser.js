@@ -4,7 +4,7 @@ async(page)=>{
 
  await page.bringToFront();const base='http://127.0.0.1:8174';const checks=[],errors=[];const check=(ok,name)=>checks.push({name,ok});page.on('pageerror',e=>errors.push(e.message));
  for(const width of [1440,768,360,320]){
-  await page.setViewportSize({width,height:1000});await page.goto(base+'/services/adaptation-visit-for-children');
+  await page.setViewportSize({width,height:1000});await page.goto(base+'/services/lechenie-kariesa');
   check(await page.locator('h1').evaluate(e=>getComputedStyle(e).fontFamily.includes('Russo One')),'Russo One '+width);
   check(await page.locator('[data-feature-card] img').count()===0&&await page.locator('[data-feature-card] svg').count()>=3,'Vector icons '+width);
   const frame=page.locator('[data-case-demo]').first();await frame.scrollIntoViewIfNeeded();await page.waitForTimeout(650);let box=await frame.boundingBox();await page.mouse.move(box.x+box.width*.5,box.y+box.height*.5);await page.mouse.down();await page.mouse.move(box.x+box.width*.8,box.y+box.height*.5,{steps:12});await page.mouse.up();check(Math.abs(Number(await frame.locator('[type=range]').inputValue())-80)<2,'Compare drag '+width);await frame.locator('[type=range]').focus();await page.keyboard.press('Home');check(await frame.locator('[type=range]').inputValue()==='0','Compare keyboard '+width);

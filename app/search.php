@@ -21,7 +21,7 @@ function dz_search_normalize(string $value): string
             preg_split('//u', 'абвгдеежзийклмнопрстуфхцчшщъыьэюяabcdefghijklmnopqrstuvwxyz', -1, PREG_SPLIT_NO_EMPTY)
         );
     }
-    $value = strtr($value, $upper ?: []);
+    $value = str_replace('ё', 'е', strtr($value, $upper ?: []));
     $value = (string) preg_replace('/[^a-zа-я0-9]+/u', ' ', $value);
     return trim((string) preg_replace('/\s+/u', ' ', $value));
 }
@@ -99,7 +99,6 @@ function dz_search_intent_terms(string $query): array
     $query = dz_search_normalize($query);
     $rules = [
         '/болит зуб|зубная боль|ноет зуб/u' => ['кариес', 'пульпит', 'лечение каналов'],
-        '/ребен|детск|молочн/u' => ['дети', 'детский', 'молочные зубы'],
         '/кривые зубы|выровнять зубы|прикус/u' => ['ортодонтия', 'брекеты', 'элайнеры', 'исправление прикуса'],
         '/брекет/u' => ['брекеты', 'исправление прикуса'],
         '/чистк|налет|налёт|камень/u' => ['профессиональная гигиена', 'гигиена зубов'],
@@ -219,7 +218,7 @@ function dz_search(string $query, int $limit = 8): array
 {
     $query=dz_search_query($query);
     $normalized = dz_search_normalize($query);
-    if ($normalized === '') {
+    if ($normalized === '' || preg_match('~(?:^|\s)(?:детск\S*|детей|детям|дети|реб[её]н\S*|подрост\S*|малыш\S*|молочн\S*)~u', $normalized)) {
         return [];
     }
     $queryTokens = dz_search_tokens($normalized . ' ' . implode(' ', dz_search_intent_terms($normalized)));
@@ -262,10 +261,9 @@ function dz_search(string $query, int $limit = 8): array
         }
         if($item['type']==='Врач'){
             $doctor=doctor_profile(ltrim($item['url'],'/'));
-            $roles=[3=>'/ортопед/u',4=>'/ортодонт/u',2=>'/хирург|имплантолог/u',1=>'/терапевт/u',6=>'/детск.*стоматолог|стоматолог.*дет/u'];
+            $roles=[3=>'/ортопед/u',4=>'/ортодонт/u',2=>'/хирург|имплантолог/u',1=>'/терапевт/u'];
             foreach($roles as $specialty=>$pattern)if(in_array($specialty,$doctor['specializations']??[],true)&&preg_match($pattern,$normalized)){$score+=250;$matched=max(1,$matched);}
         }
-        if(!preg_match('/дет|ребен|малыш|молоч/u',$normalized)&&preg_match('/дет|ребен|молоч/u',$item['titleSearch']))$score-=55;
         if(preg_match('/болит зуб|зубная боль|ноет зуб/u',$normalized)&&$item['url']==='/services/lechenie-kariesa')$score+=100;
         if(preg_match('/страхов|дмс|омс|полис/u',$normalized)&&$item['url']==='/insurance-companies')$score+=180;
         if(preg_match('/подготов.*прием|первый прием/u',$normalized)&&$item['url']==='/pravila-zapisi')$score+=180;

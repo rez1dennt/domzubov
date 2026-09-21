@@ -6,7 +6,7 @@ async (page) => {
   await page.goto(home);await page.evaluate(()=>localStorage.removeItem('accessibility-settings'));await page.reload();
   await page.setViewportSize({width:1280,height:960});
   await page.evaluate(()=>document.fonts.ready);
-  const base=await page.locator('main h1 span').last().evaluate(e=>parseFloat(getComputedStyle(e).fontSize));
+  const base=await page.locator('main h1').last().evaluate(e=>parseFloat(getComputedStyle(e).fontSize));
   const serviceTrigger=page.locator('[data-nav-panel="services-menu"]');
   await serviceTrigger.click();await page.waitForFunction(()=>document.querySelector('#services-menu').classList.contains('is-open'));
   assert(await page.locator('#service-links-0').isVisible(),'Initial service category visible');
@@ -14,7 +14,7 @@ async (page) => {
   assert(await page.locator('#service-links-1 a').count()===6,'Implantation submenu has six source links');
   assert(await page.locator('#service-links-1').isVisible(),'Category click changes submenu');
   const urls=await page.locator('#services-menu [role="tabpanel"] a').evaluateAll(a=>[...new Set(a.map(x=>x.getAttribute('href')))]);
-  assert(urls.length===40,'All 40 service pages are available');
+  assert(urls.length===34,'All 34 adult service pages are available');
   await page.locator('[data-service-category="1"]').focus();await page.keyboard.press('ArrowDown');
   assert(await page.locator('[data-service-category="2"]').getAttribute('aria-selected')==='true','Category arrow-key selection');
   await page.keyboard.press('Escape');await page.waitForFunction(()=>document.querySelector('#services-menu').hidden);
@@ -24,7 +24,7 @@ async (page) => {
   await page.locator('.dz-topbar [data-accessibility]').click();
   await page.waitForFunction(()=>document.querySelector('#accessibility-settings').open);
   await page.locator('[data-setting="fontSize"] [data-value="150"]').click();
-  const enlarged=await page.locator('main h1 span').last().evaluate(e=>parseFloat(getComputedStyle(e).fontSize));
+  const enlarged=await page.locator('main h1').last().evaluate(e=>parseFloat(getComputedStyle(e).fontSize));
   assert(enlarged>=base*1.49,'150% type scale changes actual text');
   await page.locator('[data-setting="colorScheme"] [data-value="white-black"]').click();
   assert(await page.locator('main').evaluate(e=>getComputedStyle(e).backgroundColor)==='rgb(0, 0, 0)','Inverse contrast scheme');
@@ -52,12 +52,11 @@ async (page) => {
     const after=await page.locator('.dz-header').boundingBox();
     assert(Math.abs(before.width-after.width)<1,'Stable header at '+width);
     assert(Math.abs(y-await page.evaluate(()=>scrollY))<1,'Stable scroll at '+width);
-    await page.locator('.dz-mobile-actions [data-appointment]').click();assert(await page.locator('#appointment').evaluate(e=>e.open),'Bottom appointment action');
-    await page.keyboard.press('Escape');await page.waitForFunction(()=>!document.querySelector('#appointment').open);
+    assert(await page.locator('.dz-mobile-actions a[href="https://idotvip.ru/domzubov"]').isVisible(),'Bottom action links to the clinic booking service');
     assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'No mobile overflow at '+width);
-    const mobileBase=await page.locator('main h1 span').last().evaluate(e=>parseFloat(getComputedStyle(e).fontSize));
+    const mobileBase=await page.locator('main h1').last().evaluate(e=>parseFloat(getComputedStyle(e).fontSize));
     await page.locator('.dz-mobile-eye').click();await page.locator('[data-setting="fontSize"] [data-value="150"]').click();
-    const mobileLarge=await page.locator('main h1 span').last().evaluate(e=>parseFloat(getComputedStyle(e).fontSize));
+    const mobileLarge=await page.locator('main h1').last().evaluate(e=>parseFloat(getComputedStyle(e).fontSize));
     assert(mobileLarge>=mobileBase*1.49,'Exact 150% mobile scaling at '+width);
     assert(await page.locator('#accessibility-settings').evaluate(e=>e.scrollWidth<=e.clientWidth),'Large settings panel reflows at '+width);
     await page.locator('[data-disable-accessibility]').click();await page.waitForFunction(()=>!document.querySelector('#accessibility-settings').open);

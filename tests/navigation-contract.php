@@ -12,7 +12,7 @@ $checks=[
 ];
 $menu=json_decode(file_get_contents(PROJECT_ROOT.'/content/service-menu.json'),true);
 $links=[];foreach($menu['categories'] as $category)foreach($category['items']??[] as $item)$links[]=$item['link'];
-$checks['All 40 service destinations']=count(array_unique($links))===40;
+$checks['All 34 adult service destinations']=count(array_unique($links))===34;
 foreach(array_unique($links) as $link)$checks['Service route '.$link]=resolve_route($link)!==null;
 foreach($checks as $name=>$ok)echo ($ok?'PASS':'FAIL').': '.$name."\n";
 exit(in_array(false,$checks,true)?1:0);

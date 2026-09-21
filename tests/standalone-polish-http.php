@@ -13,7 +13,7 @@ foreach(array_merge(['/','/o-nas'],array_column(doctor_data()['doctors'],'url'))
 $check(str_contains(implode(' ',$headers),'text/css')&&str_contains($css,'.dz-service-specialists'), 'CSS served as stylesheet');
 $check((bool)preg_match('/svg\[data-dz-icon\][^{]*\{[^}]*width:24px;height:24px/s',$css),'Semantic icons use compact size');
 $check(str_contains(file_get_contents(PROJECT_ROOT.'/.htaccess'),'content-polish\\.css'),'Apache allows final stylesheet');
-foreach(routes() as $route=>$meta){
+foreach(editorial_services() as $route=>$meta){
  if(!str_starts_with($route,'services/'))continue;
  [$html,$headers]=$fetch('/'.$route);
  $check(str_contains($headers[0],'200'),$route.' 200');
