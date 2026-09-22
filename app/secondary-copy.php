@@ -39,6 +39,22 @@ function rewrite_secondary_copy(Dom\HTMLDocument $doc, Dom\Element $root, string
     if ($route === '/services') {
         $heading = dz_secondary_exact($root, '.font-bold', 'Хирургическая стоматология');
         $heading?->closest('section')?->replaceWith(dz_fragment($doc, dz_surgery_catalog_markup()));
+        $sleepHeading = dz_secondary_exact($root, '.font-bold', 'Лечение во сне');
+        $sleepCopy = $sleepHeading?->closest('section');
+        $sleepWrapper = $sleepCopy?->closest('.overflow-hidden');
+        if ($sleepCopy && $sleepWrapper) {
+            $card = $doc->createElement('section');
+            $card->setAttribute('class', 'dz-sleep-card');
+            $card->appendChild(dz_fragment($doc, '<div class="dz-sleep-media"><img src="/assets/images/treatment-room.webp" alt="Иллюстрация стоматологического кабинета" width="1536" height="1024" loading="lazy" decoding="async"></div>'));
+            $copy = $doc->createElement('div');
+            $copy->setAttribute('class', 'dz-sleep-copy');
+            $title = $doc->createElement('h2');
+            $title->textContent = $sleepHeading->textContent;
+            $sleepHeading->replaceWith($title);
+            foreach (iterator_to_array($sleepCopy->childNodes) as $child) $copy->appendChild($child);
+            $card->appendChild($copy);
+            $sleepWrapper->replaceWith($card);
+        }
         return;
     }
 
