@@ -7,6 +7,7 @@ require_once __DIR__.'/icons.php';
 require_once __DIR__.'/company.php';
 require_once __DIR__.'/doctors-data.php';
 require_once __DIR__.'/adult-care.php';
+require_once __DIR__.'/surgery-catalog.php';
 function routes(): array {
     static $routes;
     return $routes ??= json_decode(file_get_contents(PROJECT_ROOT . '/content/routes.json'), true, 512, JSON_THROW_ON_ERROR);

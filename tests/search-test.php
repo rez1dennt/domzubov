@@ -32,6 +32,8 @@ foreach (['стоматолог для ребенка', 'стоматолог д
 }
 
 $braces = search_test_top('кривые зубы');
+$extraction = search_test_top('Удаление молочного зуба');
+search_test_assert($extraction['url'] === '/services#surgical-services' && $extraction['title'] === 'Удаление молочного зуба', 'specifically approved extraction is searchable without reopening pediatric services');
 search_test_assert(
     preg_match('/prikus|breket|aligner/u', $braces['url']) === 1,
     'crooked-teeth intent ranks orthodontics first'

@@ -42,4 +42,6 @@ widget.submit('БРЕКЕТЫ');
 assert.deepEqual(widget.history(), ['БРЕКЕТЫ', 'Марет', 'костный гребень'], 'Adult history still deduplicates case-insensitively');
 assert.deepEqual(searchWidget('{invalid json').history(), [], 'Invalid stored history resets safely');
 assert.deepEqual(searchWidget(JSON.stringify({query: 'брекеты'})).history(), [], 'Non-array stored history resets safely');
-console.log('PASS: existing pediatric search history purged; new pediatric queries omitted; adult history retained');
+widget.submit('Удаление молочного зуба');
+assert.equal(widget.history()[0], 'Удаление молочного зуба', 'Specifically approved extraction can be saved in search history');
+console.log('PASS: unavailable pediatric queries omitted; adult history and approved extraction retained');

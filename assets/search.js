@@ -10,7 +10,7 @@
   const key='dz-search-history',limit=6;
   let timer,closeTimer,controller,active=-1,opener,opened=false,sequence=0;
   const motion=()=>matchMedia('(prefers-reduced-motion: reduce)').matches?0:220;
-  const pediatricQuery=value=>/(?:^|[^\p{L}])(?:детск|детей|детям|дети|ребен|подрост|малыш|молочн)/u.test(value.toLocaleLowerCase('ru').replaceAll('ё','е'));
+  const pediatricQuery=value=>{const normalized=value.toLocaleLowerCase('ru').replaceAll('ё','е').trim().replace(/\s+/g,' ');return normalized!=='удаление молочного зуба'&&/(?:^|[^\p{L}])(?:детск|детей|детям|дети|ребен|подрост|малыш|молочн)/u.test(normalized);};
   const readHistory=()=>{try{const value=JSON.parse(sessionStorage.getItem(key)||'[]');return Array.isArray(value)?value.filter(x=>typeof x==='string'&&x.length<=200&&!pediatricQuery(x)).slice(0,limit):[];}catch{return [];}};
   const saveHistory=values=>{try{sessionStorage.setItem(key,JSON.stringify(values));}catch{}};
   const remember=()=>{const q=input.value.trim();if(q&&!pediatricQuery(q))saveHistory([q,...readHistory().filter(x=>x.toLocaleLowerCase('ru')!==q.toLocaleLowerCase('ru'))].slice(0,limit));};

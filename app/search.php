@@ -183,6 +183,13 @@ function dz_search_index(): array
     $items[]=['url'=>'/services','title'=>'Все стоматологические услуги','description'=>'Все направления лечения, профилактики и восстановления зубов.','type'=>'Каталог','keywords'=>'все услуги каталог направления список лечение'];
 
     $priceFile = PROJECT_ROOT . '/content/price-catalog.json';
+    $surgery = dz_surgery_catalog();
+    foreach ($surgery['groups'] as $group) {
+        foreach ($group['items'] as $procedure) {
+            $items[] = ['url'=>'/services#surgical-services', 'title'=>$procedure, 'description'=>$surgery['note'], 'type'=>'Процедура', 'keywords'=>$group['title'].' хирургические услуги'];
+        }
+    }
+
     if (is_file($priceFile)) {
         $catalog = json_decode(file_get_contents($priceFile), true, 512, JSON_THROW_ON_ERROR);
         foreach ($catalog['groups'] ?? [] as $group) {
@@ -218,7 +225,7 @@ function dz_search(string $query, int $limit = 8): array
 {
     $query=dz_search_query($query);
     $normalized = dz_search_normalize($query);
-    if ($normalized === '' || preg_match('~(?:^|\s)(?:детск\S*|детей|детям|дети|реб[её]н\S*|подрост\S*|малыш\S*|молочн\S*)~u', $normalized)) {
+    if ($normalized === '' || ($normalized !== 'удаление молочного зуба' && preg_match('~(?:^|\s)(?:детск\S*|детей|детям|дети|реб[её]н\S*|подрост\S*|малыш\S*|молочн\S*)~u', $normalized))) {
         return [];
     }
     $queryTokens = dz_search_tokens($normalized . ' ' . implode(' ', dz_search_intent_terms($normalized)));

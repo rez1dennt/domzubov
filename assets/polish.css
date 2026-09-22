@@ -33,3 +33,15 @@
 .dz-form-trap{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important;pointer-events:none!important}
 .dz-single-location{padding:16px 20px;border-radius:18px;background:var(--surface-muted);color:var(--ink);font-size:14px;line-height:1.5}.dz-doctor-location{font-size:14px;line-height:1.6;color:var(--muted);margin:0}
 .dz-contact-summary{font-size:15px;line-height:1.6;margin:-12px 0 28px;max-width:780px;color:var(--muted)}
+
+/* The surgical catalogue stays readable as a full-width, grouped list. */
+.dz-main .dz-surgery-catalog{flex:0 0 100%;width:100%;min-width:0;padding:clamp(24px,4vw,50px);scroll-margin-top:160px;background:var(--surface-muted)}
+.dz-main .dz-surgery-catalog>h2{margin:0 0 32px;font-size:clamp(24px,2.5vw,32px);line-height:1.25}
+.dz-surgery-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 48px}
+.dz-main .dz-surgery-group{min-width:0;border-top:1px solid var(--line);padding-top:20px}
+.dz-main .dz-surgery-group>h3{font-family:var(--font-sans);font-size:20px;font-weight:600;line-height:1.35;margin:0 0 16px}
+.dz-main .dz-surgery-group ul{list-style:disc outside;padding-left:20px;margin:0;font-size:16px;line-height:1.6}
+.dz-surgery-group li+li{margin-top:7px}.dz-surgery-group li::marker{color:var(--gold-ink)}
+.dz-surgery-group a{text-decoration:underline;text-underline-offset:3px}.dz-surgery-group a:hover{color:var(--gold-ink)}
+.dz-main .dz-surgery-note{border-top:1px solid var(--line);padding-top:24px;margin:32px 0 0;font-size:15px;line-height:1.6;max-width:900px}
+@media(max-width:767px){.dz-surgery-groups{grid-template-columns:1fr;gap:24px}.dz-main .dz-surgery-group>h3{font-size:19px}.dz-main .dz-surgery-group ul{font-size:15px}.dz-main .dz-surgery-catalog>h2{margin-bottom:24px}}

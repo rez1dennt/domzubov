@@ -36,6 +36,12 @@ function rewrite_secondary_copy(Dom\HTMLDocument $doc, Dom\Element $root, string
 {
     $route = '/' . trim($route, '/');
 
+    if ($route === '/services') {
+        $heading = dz_secondary_exact($root, '.font-bold', 'Хирургическая стоматология');
+        $heading?->closest('section')?->replaceWith(dz_fragment($doc, dz_surgery_catalog_markup()));
+        return;
+    }
+
     if ($route === '/o-nas') {
         $clinicIq = dz_secondary_exact($root, '.font-medium.uppercase', 'УМНАЯ СИСТЕМА CLINICIQ');
         if ($clinicIq !== null) {

@@ -40,7 +40,8 @@ for (const canonical of urls) {
   check(!/Fatal error|Warning:|Deprecated:|Parse error:/.test(html), `${path}: no runtime errors`);
   const publicMarkup = html.replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi, '');
   const text = decodeText(publicMarkup.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ');
-  const textMatch = text.match(childTerms);
+  // Only this catalogue procedure was explicitly approved on 2026-09-22.
+  const textMatch = (path.replace(/\/$/, '') === '/services' ? text.replace('Удаление молочного зуба', '') : text).match(childTerms);
   check(!textMatch, `${path}: pediatric public text ${textMatch?.[0] || ''}`);
   for (const match of publicMarkup.matchAll(/(?:alt|title|aria-label|content)="([^"]*)"/gi)) {
     check(!childTerms.test(decodeText(match[1])), `${path}: pediatric metadata or accessibility label ${match[1].slice(0, 120)}`);
