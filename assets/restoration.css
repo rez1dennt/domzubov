@@ -29,5 +29,3 @@
 .dz-social-placeholders button{display:grid;place-items:center;flex:0 0 37px;padding:0;line-height:0}
 .dz-social-placeholders button svg{display:block;width:20px;height:20px;fill:currentColor;stroke:none}
 .dz-social-placeholders button .dz-social-logo{display:block;width:27px;height:27px;object-fit:contain;transform:translateY(-1px)}
-.dz-social-logo--telegram{filter:hue-rotate(204deg) saturate(.51) brightness(1.23)}
-.dz-social-logo--whatsapp{filter:hue-rotate(283deg) saturate(.61) brightness(1.12)}
