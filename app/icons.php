@@ -20,3 +20,10 @@ function icon(string $name, string $class=''): string {
     ];
     return '<svg class="dz-icon a11y-keep '.e($class).'" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'.($paths[$name]??$paths['arrow']).'</svg>';
 }
+
+/** Only local, reviewed social logos may be inlined into the footer. */
+function social_icon(string $name): string {
+    static $icons = [];
+    if (!in_array($name, ['telegram', 'whatsapp'], true)) return '';
+    return $icons[$name] ??= (string) file_get_contents(PROJECT_ROOT.'/assets/social-'.$name.'.svg');
+}

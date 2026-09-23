@@ -26,3 +26,5 @@
 .dz-main .dz-secondary-picker{padding:0;min-width:0}.dz-secondary-picker>div{min-width:0}.dz-secondary-picker iframe{min-height:374px}.dz-main [data-route="programma-blagodarnosti"] .dz-secondary-picker{flex:1}
 .dz-main a[href="https://idotvip.ru/domzubov"]{cursor:pointer;opacity:1;color:var(--ink)}.dz-main a[href="https://idotvip.ru/domzubov"][class*="bg-gray"]{background:var(--gold);color:var(--ink)}
 .dz-booking-step{display:flex;align-items:center;color:var(--gold-ink);font-size:14px}
+.dz-social-placeholders button{display:grid;place-items:center;flex:0 0 37px;padding:0;line-height:0}
+.dz-social-placeholders button svg{display:block;width:20px;height:20px;fill:currentColor;stroke:none}
