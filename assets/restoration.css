@@ -28,4 +28,4 @@
 .dz-booking-step{display:flex;align-items:center;color:var(--gold-ink);font-size:14px}
 .dz-social-placeholders button{display:grid;place-items:center;flex:0 0 37px;padding:0;line-height:0}
 .dz-social-placeholders button svg{display:block;width:20px;height:20px;fill:currentColor;stroke:none}
-.dz-social-placeholders button .dz-social-logo{display:block;width:27px;height:27px;object-fit:contain;transform:translateY(-1px)}
+.dz-social-placeholders button .dz-social-logo{display:block;width:27px;height:27px;object-fit:contain}
