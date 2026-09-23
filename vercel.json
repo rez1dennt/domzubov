@@ -30,7 +30,7 @@
       "continue": true
     },
     {
-      "src": "/assets/((?:embla-carousel|carousel|content-polish|foundation|search|phone-mask|polish|layout|restoration|restored|doctors|theme|navigation|accessibility|editorial|site|experience|legal|form-guard|doctor-profiles)\\.(?:css|js)|(?:mark|brand)\\.svg|social-outline-(?:telegram|whatsapp)\\.webp|images/[a-z0-9-]+\\.(?:webp|svg)|fonts/[a-z0-9-]+\\.(?:woff2|css)|documents/(?:maret-(?:diploma|apexogenesis|periodontitis|endodontics|accreditation)|paid-medical-services-659-2026|medical-website-118n-2025|medicines-3867r-2025|personal-data-amendment-156fz-2025)\\.pdf)",
+      "src": "/assets/((?:embla-carousel|carousel|content-polish|foundation|search|phone-mask|polish|layout|restoration|restored|doctors|theme|navigation|accessibility|editorial|site|experience|legal|form-guard|doctor-profiles)\\.(?:css|js)|(?:mark|brand)\\.svg|social-outline-(?:telegram-v2|whatsapp)\\.webp|images/[a-z0-9-]+\\.(?:webp|svg)|fonts/[a-z0-9-]+\\.(?:woff2|css)|documents/(?:maret-(?:diploma|apexogenesis|periodontitis|endodontics|accreditation)|paid-medical-services-659-2026|medical-website-118n-2025|medicines-3867r-2025|personal-data-amendment-156fz-2025)\\.pdf)",
       "methods": [
         "GET",
         "HEAD"
